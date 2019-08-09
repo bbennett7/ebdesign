@@ -1,10 +1,14 @@
+/* Amiri */
 @import url('https://fonts.googleapis.com/css?family=Amiri&display=swap');
+
+body {
+  --headers-font-family: 'Amiri', serif;
+}
 
 .App {
   text-align: center;
   display: grid;
   grid-template: [header-start] 2fr [header-end] [nav-start] 1fr [nav-end] 2fr 2fr [footer-start] 2fr [footer-end] / 1fr 1fr 1fr 1fr;
-  font-family: 'Amiri', serif;
 
 }
 
@@ -21,6 +25,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: var(--headers-font-family);
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -37,10 +42,23 @@
   vertical-align: bottom;
 }
 
+.Header-city {
+  font-size: .5em;
+}
+
 .Nav-bar {
-grid-area: 2 / 2 / 2 / 4;
-font-size: .75em;
-border: black solid 1px; 
+  grid-area: 2 / 2 / 2 / 4;
+  font-size: .7em;
+}
+
+.Nav-button {
+  justify-content: center;
+  padding: 0 2%;
+}
+
+.Carousel-image {
+  height: 100%;
+  width: 100%;
 }
 
 
