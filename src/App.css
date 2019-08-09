@@ -1,8 +1,41 @@
 /* Amiri */
 @import url('https://fonts.googleapis.com/css?family=Amiri&display=swap');
 
+/* Poppins & Quicksand */
+@import url('https://fonts.googleapis.com/css?family=Poppins|Quicksand:500&display=swap');
+
 body {
   --headers-font-family: 'Amiri', serif;
+  --paragraph-font-family: 'Quicksand', sans-serif;
+  --header-background-color: rgb(249 246 236);
+  --background-color: rgb(221 204 166);
+  background-color: var(--background-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--headers-font-family);
+  text-decoration: underline;
+}
+
+a {
+  color: black;
+  font-family: var(--headers-font-family);
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+a:active {
+  color: var(--background-color);
+}
+
+p {
+  font-family: var(--paragraph-font-family);
+  font-size: .9em;
+  font-weight: 500;
 }
 
 .App {
@@ -19,29 +52,11 @@ body {
 
 .About {
   display: grid;
-  grid-template: auto / 10% 40% 40% 10%;
+  grid-template: auto / 5% 45% 45% 5%;
   padding-top: 4%;
 }
 
 /* Site Layout */
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--headers-font-family);
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
@@ -49,9 +64,10 @@ body {
 
 .Header {
   grid-area: 1 / 1 / 1 / 5;
+  background-color: var(--header-background-color);
+  font-family: var(--headers-font-family);
   font-size: 2em;
   padding: 3%;
-
   vertical-align: bottom;
 }
 
@@ -59,7 +75,7 @@ body {
   color: black;
   border: .5px black solid;
   width: 40%;
-  margin: 1.5% auto;
+  margin: 0 auto;
 }
 
 .Header-city {
@@ -68,17 +84,18 @@ body {
 
 .Nav-bar {
   grid-area: 2 / 1 / 2 / 5;
-  font-size: .95em;
-  text-align: center;
+  background-color: rgb(249 246 236);
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
 }
 
 .Nav-button {
   text-align: center;
-  margin: 0 1.5%;
+  font-size: .85em;
+  padding: 0 1.5%;
+  margin: auto;
   vertical-align: middle;
 }
 
@@ -95,12 +112,11 @@ body {
 
 /* About Page */
 
-.About {
-  grid-area: 2 / 2 / 2 / 4;
-}
-
 .About-content {
     grid-area: 1 / 2 / 1 / 4;
+    border: .5px black solid;
+    background-color: var(--header-background-color);
+    padding: 4%;
 }
 
 .About-image {
@@ -117,7 +133,9 @@ body {
   text-align: justify;
 }
 
-
+.About-text p {
+  line-height: 1px;
+}
 
 @keyframes App-logo-spin {
   from {
