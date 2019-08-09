@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <header className="Header">
         Erin Boyle Design
+        <hr className="Header-rule"/>
         <header className="Header-city">Los Angeles</header>
       </header>
       <NavBar />
