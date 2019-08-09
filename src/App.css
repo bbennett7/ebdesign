@@ -8,8 +8,13 @@ body {
 .App {
   text-align: center;
   display: grid;
-  grid-template: [header-start] 2fr [header-end] [nav-start] 1fr [nav-end] 2fr 2fr [footer-start] 2fr [footer-end] / 1fr 1fr 1fr 1fr;
+  grid-template: 2fr .75fr / 25% 25% 25% 25%;
 
+}
+
+.Home {
+  display: grid;
+  grid-template:  1fr 1fr 1fr / 25% 25% 25% 25%;
 }
 
 .App-logo {
@@ -47,13 +52,18 @@ body {
 }
 
 .Nav-bar {
-  grid-area: 2 / 2 / 2 / 4;
+  grid-area: 2 / 2 / 2 / 2;
   font-size: .7em;
+  text-align: center;
 }
 
 .Nav-button {
-  justify-content: center;
-  padding: 0 2%;
+  text-align: center;
+
+}
+
+.Carousel {
+  grid-area: 1 / 1 / 1 / 5;
 }
 
 .Carousel-image {
@@ -61,6 +71,12 @@ body {
   width: 100%;
 }
 
+
+/* About Page */
+
+.About {
+  grid-area: 4 / 2 / 3 / 4;
+}
 
 
 @keyframes App-logo-spin {
