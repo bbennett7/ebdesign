@@ -10,6 +10,7 @@ import Residential from './components/Residential';
 import Commercial from './components/Commercial';
 import Chadwick from './components/Properties/Chadwick';
 import Jim from './components/Properties/Jim';
+import Lexington from './components/Properties/Lexington';
 import Parc5 from './components/Properties/Parc5';
 import Parker from './components/Properties/Parker';
 import Rockwood from './components/Properties/Rockwood';
@@ -28,6 +29,7 @@ ReactDOM.render(
       <Route exact path="/commercial" component={Commercial} />
       <Route exact path="/commercial/The-Chadwick" component={Chadwick} />
       <Route exact path="/commercial/Jim" component={Jim} />
+      <Route exact path="/commercial/The-Lexington" component={Lexington} />
       <Route exact path="/commercial/Parc-5" component={Parc5} />
       <Route exact path="/commercial/Parker" component={Parker} />
       <Route exact path="/commercial/Rockwood" component={Rockwood} />

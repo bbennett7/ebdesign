@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
 
-export default class Chadwick extends Component {
+export default class Parc5 extends Component {
   render() {
     return(
       <div className="Property">

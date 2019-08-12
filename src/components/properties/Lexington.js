@@ -2,44 +2,65 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
-import BBQs from '../../images/chadwick/BBQs.jpg';
-import Fireplace from '../../images/chadwick/Fireplace.jpg';
-import Pingpong from '../../images/chadwick/Pingpong.jpg';
-import Pool from '../../images/chadwick/Pool.jpg';
-import Seating from '../../images/chadwick/Seating.jpg';
-import Tables from '../../images/chadwick/Tables.jpg';
-import WorkStation from '../../images/chadwick/Work-station.jpg';
+import BBQArea from '../../images/lexington/BBQ-area.jpg';
+import BBQs from '../../images/lexington/BBQs.jpg';
+import Entrance from '../../images/lexington/Entrance.jpg';
+import ExteriorBuilding from '../../images/lexington/Exterior-building.jpg';
+import LeasingExterior from '../../images/lexington/Leasing-exterior.jpg';
+import LeasingInterior from '../../images/lexington/Leasing-interior.jpg';
+import MainExterior from '../../images/lexington/Main-exterior.jpg';
+import Pool from '../../images/lexington/Pool.jpg';
 
-export default class Chadwick extends Component {
+export default class Lexington extends Component {
   render() {
     return(
       <div className="Property">
-        <h4>The Chadwick</h4>
+        <h4>The Lexington</h4>
         <Carousel interval="null" className="Carousel">
         <Carousel.Item>
           <img
             className="Carousel-image"
-            src={Fireplace}
-            alt=""
-          />
-          <Carousel.Caption>
-          </Carousel.Caption>
-        </Carousel.Item>
-
-        <Carousel.Item>
-          <img
-            className="Carousel-image"
-            src={Seating}
-            alt=""
-          />
-          <Carousel.Caption>
-          </Carousel.Caption>
-        </Carousel.Item>
-
-        <Carousel.Item>
-          <img
-            className="Carousel-image"
             src={BBQs}
+            alt=""
+          />
+          <Carousel.Caption>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="Carousel-image"
+            src={Entrance}
+            alt=""
+          />
+          <Carousel.Caption>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="Carousel-image"
+            src={LeasingInterior}
+            alt=""
+          />
+          <Carousel.Caption>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="Carousel-image"
+            src={LeasingExterior}
+            alt=""
+          />
+          <Carousel.Caption>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="Carousel-image"
+            src={BBQArea}
             alt=""
           />
           <Carousel.Caption>
@@ -59,7 +80,7 @@ export default class Chadwick extends Component {
         <Carousel.Item>
           <img
             className="Carousel-image"
-            src={Tables}
+            src={MainExterior}
             alt=""
           />
           <Carousel.Caption>
@@ -69,17 +90,7 @@ export default class Chadwick extends Component {
         <Carousel.Item>
           <img
             className="Carousel-image"
-            src={WorkStation}
-            alt=""
-          />
-          <Carousel.Caption>
-          </Carousel.Caption>
-        </Carousel.Item>
-
-        <Carousel.Item>
-          <img
-            className="Carousel-image"
-            src={Pingpong}
+            src={ExteriorBuilding}
             alt=""
           />
           <Carousel.Caption>
