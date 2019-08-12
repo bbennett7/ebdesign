@@ -1,20 +1,22 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
-import AptLobby from '../images/carousel-images/AptLobby.jpg';
-import AptPool from '../images/carousel-images/AptPool.png';
-import LivingRoom from '../images/carousel-images/LivingRoom.jpg';
+import Bathroom from '../images/home-carousel/Bathroom.jpg';
+import Kitchen from '../images/home-carousel/Kitchen.jpg';
+import LeasingOffice from '../images/home-carousel/LeasingOffice.jpg';
+import Platter from '../images/home-carousel/Platter.jpg';
+import Pool from '../images/home-carousel/Pool.jpg';
 
 export default class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <Carousel className="Carousel">
+        <Carousel className="Home-carousel">
           <Carousel.Item>
             <img
-              className="Carousel-image"
-              src={AptLobby}
-              alt="First slide of an apartment lobby"
+              className="Home-carousel-image"
+              src={Pool}
+              alt=""
             />
             <Carousel.Caption>
             </Carousel.Caption>
@@ -22,9 +24,9 @@ export default class Home extends Component {
 
           <Carousel.Item>
             <img
-              className="Carousel-image"
-              src={AptPool}
-              alt="Second slide of an apartment pool"
+              className="Home-carousel-image"
+              src={LeasingOffice}
+              alt=""
             />
             <Carousel.Caption>
             </Carousel.Caption>
@@ -32,9 +34,29 @@ export default class Home extends Component {
 
           <Carousel.Item>
             <img
-              className="Carousel-image"
-              src={LivingRoom}
-              alt="Third slide of a living room"
+              className="Home-carousel-image"
+              src={Kitchen}
+              alt=""
+            />
+            <Carousel.Caption>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              className="Home-carousel-image"
+              src={Platter}
+              alt=""
+            />
+            <Carousel.Caption>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              className="Home-carousel-image"
+              src={Bathroom}
+              alt=""
             />
             <Carousel.Caption>
             </Carousel.Caption>

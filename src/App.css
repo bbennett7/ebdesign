@@ -54,7 +54,8 @@ p {
 
 .Home {
   display: grid;
-  grid-template:  1fr 3fr 1fr / 25% 25% 25% 25%;
+  background-color: black;
+  grid-template:  100% / 100%;
 }
 
 .About {
@@ -115,11 +116,11 @@ p {
 
 /* Home Page */
 
-.Carousel {
-  grid-area: 2 / 1 / 2 / 5;
+.Home-carousel {
+  grid-area: 1 / 1 / 1 / 2;
 }
 
-.Carousel-image {
+.Home-carousel-image {
   height: 100%;
   width: 100%;
 }
