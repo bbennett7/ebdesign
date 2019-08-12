@@ -4,8 +4,11 @@
 /* Poppins & Quicksand */
 @import url('https://fonts.googleapis.com/css?family=Poppins|Quicksand:500&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
+
 body {
-  --headers-font-family: 'Amiri', serif;
+  --header-font-family: 'Amiri', serif;
+  --city-font-family: 'Red Hat Display', sans-serif;
   --paragraph-font-family: 'Quicksand', sans-serif;
   --header-background-color: white;
   --background-color: rgb(221 204 166);
@@ -15,13 +18,13 @@ body {
 /* Standard Element Styling */
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--headers-font-family);
+  font-family: var(--header-font-family);
   text-decoration: underline;
 }
 
 a {
   color: black;
-  font-family: var(--headers-font-family);
+  font-family: var(--header-font-family);
   text-decoration: none;
 }
 
@@ -74,21 +77,23 @@ p {
 .Header {
   grid-area: 1 / 1 / 1 / 5;
   background-color: var(--header-background-color);
-  font-family: var(--headers-font-family);
-  font-size: 2em;
-  padding: 3%;
+  font-family: var(--header-font-family);
+  font-size: 2.5em;
+  padding: 5%;
   vertical-align: bottom;
 }
 
 .Header-rule {
   color: black;
   border: .5px black solid;
-  width: 40%;
+  width: 60%;
   margin: 0 auto;
 }
 
 .Header-city {
   font-size: .5em;
+  font-family: var(--city-font-family);
+  padding-top: 5px;
 }
 
 .Nav-bar {
@@ -102,8 +107,8 @@ p {
 
 .Nav-button {
   text-align: center;
-  font-size: .85em;
-  padding: 0 1.5%;
+  font-size: 1.1em;
+  padding: 0 1.75%;
   margin: auto;
   vertical-align: middle;
 }
