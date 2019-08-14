@@ -8,13 +8,12 @@ import Home from './components/Home';
 import About from './components/About';
 import Residential from './components/Residential';
 import Commercial from './components/Commercial';
+import Bayridge from './components/Properties/Bayridge';
 import Chadwick from './components/Properties/Chadwick';
 import Jim from './components/Properties/Jim';
 import Lexington from './components/Properties/Lexington';
 import Parc5 from './components/Properties/Parc5';
-import Parker from './components/Properties/Parker';
 import Rockwood from './components/Properties/Rockwood';
-import Silverberg from './components/Properties/Silverberg';
 import Contact from './components/Contact';
 import * as serviceWorker from './serviceWorker';
 
@@ -27,13 +26,12 @@ ReactDOM.render(
       <Route exact path="/about" component={About} />
       <Route exact path="/residential" component={Residential} />
       <Route exact path="/commercial" component={Commercial} />
+      <Route exact path="/commercial/Bayridge" component={Bayridge} />
       <Route exact path="/commercial/The-Chadwick" component={Chadwick} />
       <Route exact path="/commercial/Jim" component={Jim} />
       <Route exact path="/commercial/The-Lexington" component={Lexington} />
       <Route exact path="/commercial/Parc-5" component={Parc5} />
-      <Route exact path="/commercial/Parker" component={Parker} />
       <Route exact path="/commercial/Rockwood" component={Rockwood} />
-      <Route exact path="/commercial/Silverberg" component={Silverberg} />
       <Route exact path="/contact" component={Contact} />
     </React.Fragment>
   </Router>,
