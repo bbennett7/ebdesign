@@ -9,6 +9,7 @@ import About from './components/About';
 import Residential from './components/Residential';
 import Commercial from './components/Commercial';
 import Bayridge from './components/Properties/Bayridge';
+import Bayshore from './components/Properties/Bayshore';
 import Chadwick from './components/Properties/Chadwick';
 import Jim from './components/Properties/Jim';
 import Lexington from './components/Properties/Lexington';
@@ -27,6 +28,7 @@ ReactDOM.render(
       <Route exact path="/residential" component={Residential} />
       <Route exact path="/commercial" component={Commercial} />
       <Route exact path="/commercial/Bayridge" component={Bayridge} />
+      <Route exact path="/commercial/Bayshore" component={Bayshore} />
       <Route exact path="/commercial/The-Chadwick" component={Chadwick} />
       <Route exact path="/commercial/Jim" component={Jim} />
       <Route exact path="/commercial/The-Lexington" component={Lexington} />

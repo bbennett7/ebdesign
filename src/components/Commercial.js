@@ -12,6 +12,8 @@ export default class Commercial extends Component {
           <h4 className="Property-links">
             <Link className="Property-link" to='/commercial/Bayridge'>Bayridge</Link><br /><br />
             <hr className="Header-rule"/><br />
+            <Link className="Property-link" to='/commercial/Bayshore'>Bayshore</Link><br /><br />
+            <hr className="Header-rule"/><br />
             <Link className="Property-link" to='/commercial/The-Chadwick'>The Chadwick</Link><br /><br />
             <hr className="Header-rule"/><br />
             <Link className="Property-link" to='/commercial/The-Lexington'>The Lexington</Link><br /><br />
