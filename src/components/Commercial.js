@@ -16,6 +16,8 @@ export default class Commercial extends Component {
             <hr className="Header-rule"/><br />
             <Link className="Property-link" to='/commercial/The-Chadwick'>The Chadwick</Link><br /><br />
             <hr className="Header-rule"/><br />
+            <Link className="Property-link" to='/commercial/Corsica'>Corsica</Link><br /><br />
+            <hr className="Header-rule"/><br />
             <Link className="Property-link" to='/commercial/The-Lexington'>The Lexington</Link><br /><br />
             <hr className="Header-rule"/><br />
             <Link className="Property-link" to='/commercial/Parc-5'>Parc 5</Link><br /><br />

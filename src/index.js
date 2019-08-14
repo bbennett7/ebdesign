@@ -11,6 +11,7 @@ import Commercial from './components/Commercial';
 import Bayridge from './components/Properties/Bayridge';
 import Bayshore from './components/Properties/Bayshore';
 import Chadwick from './components/Properties/Chadwick';
+import Corsica from './components/Properties/Corsica';
 import Jim from './components/Properties/Jim';
 import Lexington from './components/Properties/Lexington';
 import Parc5 from './components/Properties/Parc5';
@@ -30,6 +31,7 @@ ReactDOM.render(
       <Route exact path="/commercial/Bayridge" component={Bayridge} />
       <Route exact path="/commercial/Bayshore" component={Bayshore} />
       <Route exact path="/commercial/The-Chadwick" component={Chadwick} />
+      <Route exact path="/commercial/Corsica" component={Corsica} />
       <Route exact path="/commercial/Jim" component={Jim} />
       <Route exact path="/commercial/The-Lexington" component={Lexington} />
       <Route exact path="/commercial/Parc-5" component={Parc5} />
