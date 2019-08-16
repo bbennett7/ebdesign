@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 
 
 export default class Commercial extends Component {
-
-
   render() {
     return(
       <div className="Commercial">
@@ -22,9 +20,9 @@ export default class Commercial extends Component {
             <hr className="Header-rule"/><br />
             <Link className="Property-link" to='/commercial/Parc-5'>Parc @ 5</Link><br /><br />
             <hr className="Header-rule"/><br />
-            <Link className="Property-link" to='/commercial/Parker'>The Parker</Link><br /><br />
-            <hr className="Header-rule"/><br />
             <Link className="Property-link" to='/commercial/Rockwood'>Rockwood</Link><br /><br />
+            <hr className="Header-rule"/><br />
+            <Link className="Property-link" to='/commercial/Vicino'>Vicino</Link><br /><br />
           </h4>
         </div>
       </div>
