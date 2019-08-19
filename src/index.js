@@ -7,6 +7,7 @@ import App from './App';
 import Home from './components/Home';
 import About from './components/About';
 import Residential from './components/Residential';
+import Kitchen from './components/Properties/Residential-kitchen';
 import Commercial from './components/Commercial';
 import Bayridge from './components/Properties/Bayridge';
 import Bayshore from './components/Properties/Bayshore';
@@ -30,6 +31,7 @@ ReactDOM.render(
       <Route exact path="/home" component={Home} />
       <Route exact path="/about" component={About} />
       <Route exact path="/residential" component={Residential} />
+      <Route exact path="/residential/kitchen" component={Kitchen} />
       <Route exact path="/commercial" component={Commercial} />
       <Route exact path="/commercial/Bayridge" component={Bayridge} />
       <Route exact path="/commercial/Bayshore" component={Bayshore} />
