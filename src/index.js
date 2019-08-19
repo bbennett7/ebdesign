@@ -15,6 +15,7 @@ import Corsica from './components/Properties/Corsica';
 import Jim from './components/Properties/Jim';
 import Levine from './components/Properties/Levine';
 import Lexington from './components/Properties/Lexington';
+import Ohebshalom from './components/Properties/Ohebshalom';
 import Parc5 from './components/Properties/Parc5';
 import Rockwood from './components/Properties/Rockwood';
 import Vicino from './components/Properties/Vicino';
@@ -37,6 +38,7 @@ ReactDOM.render(
       <Route exact path="/commercial/Jim" component={Jim} />
       <Route exact path="/commercial/Levine" component={Levine} />
       <Route exact path="/commercial/The-Lexington" component={Lexington} />
+      <Route exact path="/commercial/Ohebshalom" component={Ohebshalom} />
       <Route exact path="/commercial/Parc-5" component={Parc5} />
       <Route exact path="/commercial/Rockwood" component={Rockwood} />
       <Route exact path="/commercial/Vicino" component={Vicino} />

@@ -117,12 +117,24 @@ p {
   border-bottom: 1.25px black solid;
 }
 
-.Nav-button {
+.Nav-button, .Top-level {
   text-align: center;
   font-size: 100%;
-  padding: 0 1.75%;
+  padding: 0 1%;
   margin: auto;
   vertical-align: middle;
+}
+
+.Second-level {
+  margin: 0 10px;
+}
+
+.nav-link {
+  padding: 0;
+}
+
+.dropdown-menu {
+  min-width: 5rem;
 }
 
 /* Home Page */

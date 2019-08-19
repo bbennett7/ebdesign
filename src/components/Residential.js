@@ -6,12 +6,14 @@ export default class Residential extends Component {
     return(
       <div className="Residential">
         <div className="Residential-content">
-          <h4 className="Property-links">
-            <Link className="Property-link" to='/commercial/Jim'>Jim</Link><br /><br />
+          <h4 className="Property-links dropdown-menu" aria-labelledby="dropdownMenuButton" >
+            <Link className="Property-link dropdown-item" to='/commercial/Jim'>Jim</Link><br /><br />
             <hr className="Header-rule"/><br />
-              <Link className="Property-link" to='/commercial/Levine'>Levine</Link><br /><br />
-              <hr className="Header-rule"/><br />
-            <Link className="Property-link" to='/commercial/Silverberg'>Silverberg</Link><br />
+            <Link className="Property-link dropdown-item" to='/commercial/Levine'>Levine</Link><br /><br />
+            <hr className="Header-rule"/><br />
+            <Link className="Property-link dropdown-item" to='/commercial/Ohebshalom'>Ohebshalom</Link><br /><br />
+            <hr className="Header-rule"/><br />
+            <Link className="Property-link dropdown-item" to='/commercial/Silverberg'>Silverberg</Link><br />
           </h4>
         </div>
       </div>
