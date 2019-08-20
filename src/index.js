@@ -6,9 +6,7 @@ import './index.css';
 import App from './App';
 import Home from './components/Home';
 import About from './components/About';
-import Residential from './components/Residential';
 import Kitchen from './components/Properties/Residential-kitchen';
-import Commercial from './components/Commercial';
 import Bayridge from './components/Properties/Bayridge';
 import Bayshore from './components/Properties/Bayshore';
 import Chadwick from './components/Properties/Chadwick';
@@ -30,20 +28,18 @@ ReactDOM.render(
       <Route exact path="/" component={Home} />
       <Route exact path="/home" component={Home} />
       <Route exact path="/about" component={About} />
-      <Route exact path="/residential" component={Residential} />
       <Route exact path="/residential/kitchen" component={Kitchen} />
-      <Route exact path="/commercial" component={Commercial} />
-      <Route exact path="/commercial/Bayridge" component={Bayridge} />
-      <Route exact path="/commercial/Bayshore" component={Bayshore} />
-      <Route exact path="/commercial/The-Chadwick" component={Chadwick} />
-      <Route exact path="/commercial/Corsica" component={Corsica} />
-      <Route exact path="/commercial/Jim" component={Jim} />
-      <Route exact path="/commercial/Levine" component={Levine} />
-      <Route exact path="/commercial/The-Lexington" component={Lexington} />
-      <Route exact path="/commercial/Ohebshalom" component={Ohebshalom} />
-      <Route exact path="/commercial/Parc-5" component={Parc5} />
-      <Route exact path="/commercial/Rockwood" component={Rockwood} />
-      <Route exact path="/commercial/Vicino" component={Vicino} />
+      <Route exact path="/multi-family/Bayridge" component={Bayridge} />
+      <Route exact path="/multi-family/Bayshore" component={Bayshore} />
+      <Route exact path="/multi-family/The-Chadwick" component={Chadwick} />
+      <Route exact path="/multi-family/Corsica" component={Corsica} />
+      <Route exact path="/multi-family/Jim" component={Jim} />
+      <Route exact path="/multi-family/Levine" component={Levine} />
+      <Route exact path="/multi-family/The-Lexington" component={Lexington} />
+      <Route exact path="/multi-family/Ohebshalom" component={Ohebshalom} />
+      <Route exact path="/multi-family/Parc-5" component={Parc5} />
+      <Route exact path="/multi-family/Rockwood" component={Rockwood} />
+      <Route exact path="/multi-family/Vicino" component={Vicino} />
       <Route exact path="/contact" component={Contact} />
     </React.Fragment>
   </Router>,
