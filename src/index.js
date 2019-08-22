@@ -27,6 +27,7 @@ import LeasingOffice from './components/Properties/Multifamily-leasing-office';
 import OutdoorLounge from './components/Properties/Multifamily-outdoor-lounge';
 import Pool from './components/Properties/Multifamily-pool';
 import Contact from './components/Contact';
+import Iframe from './components/Iframe';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
