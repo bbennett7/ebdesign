@@ -27,22 +27,22 @@ export default class NavBar extends Component {
                <NavDropdown.Item eventKey="4.8"> <Link to="/multi-family/Vicino"> Vicino </Link> </NavDropdown.Item>
              </NavDropdown>
              <NavDropdown drop="right" variant="secondary" title="By Area" className="Second-level nav-dropdown">
-                <NavDropdown.Item eventKey="4.1">Leasing Office</NavDropdown.Item>
-                <NavDropdown.Item eventKey="4.2">Pool</NavDropdown.Item>
-                <NavDropdown.Item eventKey="4.3">Office Lounge</NavDropdown.Item>
-                <NavDropdown.Item eventKey="4.4">Gym</NavDropdown.Item>
-                <NavDropdown.Item eventKey="4.5">Exterior</NavDropdown.Item>
+                <NavDropdown.Item eventKey="4.5"><Link to="/multi-family/exterior"> Exterior </Link></NavDropdown.Item>
+                <NavDropdown.Item eventKey="4.4"><Link to="/multi-family/gym"> Gym </Link></NavDropdown.Item>
+                <NavDropdown.Item eventKey="4.1"><Link to="/multi-family/leasing-office"> Leasing Office </Link></NavDropdown.Item>
+                <NavDropdown.Item eventKey="4.3"><Link to="/multi-family/office-lounge"> Office Lounge </Link></NavDropdown.Item>
+                <NavDropdown.Item eventKey="4.4"><Link to="/multi-family/outdoor-lounge"> Outdoor Lounge </Link></NavDropdown.Item>
+                <NavDropdown.Item eventKey="4.2"><Link to="/multi-family/pool"> Pool </Link></NavDropdown.Item>
               </NavDropdown>
            </NavDropdown>
         </Nav.Item>
         <Nav.Item>
           <NavDropdown title="Residential" className="Top-level nav-dropdown nav-border">
+            <NavDropdown.Item eventKey="4.3"><Link to="/residential/backyard"> Backyard </Link> </NavDropdown.Item>
             <NavDropdown.Item eventKey="4.1"> <Link to="/residential/bathroom"> Bathroom </Link> </NavDropdown.Item>
             <NavDropdown.Item eventKey="4.1"> <Link to="/residential/kitchen"> Kitchen </Link> </NavDropdown.Item>
             <NavDropdown.Item eventKey="4.2"> <Link to="/residential/living-room"> Living Room </Link> </NavDropdown.Item>
-            <NavDropdown.Item eventKey="4.3"><Link to="/residential/backyard"> Backyard </Link> </NavDropdown.Item>
-            <NavDropdown.Item eventKey="4.4"><Link> Pool </Link> </NavDropdown.Item>
-           </NavDropdown>
+          </NavDropdown>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link className="nav-border" href="/about">About</Nav.Link>

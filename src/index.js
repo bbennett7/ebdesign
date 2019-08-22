@@ -18,6 +18,12 @@ import Lexington from './components/Properties/Lexington';
 import Parc5 from './components/Properties/Parc5';
 import Rockwood from './components/Properties/Rockwood';
 import Vicino from './components/Properties/Vicino';
+import Exterior from './components/Properties/Multifamily-exterior';
+import Gym from './components/Properties/Multifamily-gym';
+import LeasingOffice from './components/Properties/Multifamily-leasing-office';
+import OfficeLounge from './components/Properties/Multifamily-office-lounge';
+import OutdoorLounge from './components/Properties/Multifamily-outdoor-lounge';
+import Pool from './components/Properties/Multifamily-pool';
 import Contact from './components/Contact';
 import * as serviceWorker from './serviceWorker';
 
@@ -41,6 +47,12 @@ ReactDOM.render(
       <Route exact path="/multi-family/Rockwood" component={Rockwood} />
       <Route exact path="/multi-family/Vicino" component={Vicino} />
       <Route exact path="/contact" component={Contact} />
+      <Route exact path="/multi-family/exterior" component={Exterior} />
+      <Route exact path="/multi-family/gym" component={Gym} />
+      <Route exact path="/multi-family/leasing-office" component={LeasingOffice} />
+      <Route exact path="/multi-family/office-lounge" component={OfficeLounge} />
+      <Route exact path="/multi-family/outdoor-lounge" component={OutdoorLounge} />
+      <Route exact path="/multi-family/pool" component={Pool} />
     </React.Fragment>
   </Router>,
 document.getElementById('root'));
