@@ -21,7 +21,6 @@ import Vicino from './components/Properties/Vicino';
 import Exterior from './components/Properties/Multifamily-exterior';
 import FitnessCenter from './components/Properties/Multifamily-fitness-center';
 import LeasingOffice from './components/Properties/Multifamily-leasing-office';
-import OfficeLounge from './components/Properties/Multifamily-office-lounge';
 import OutdoorLounge from './components/Properties/Multifamily-outdoor-lounge';
 import Pool from './components/Properties/Multifamily-pool';
 import Contact from './components/Contact';
@@ -50,7 +49,6 @@ ReactDOM.render(
       <Route exact path="/multi-family/exterior" component={Exterior} />
       <Route exact path="/multi-family/fitness-center" component={FitnessCenter} />
       <Route exact path="/multi-family/leasing-office" component={LeasingOffice} />
-      <Route exact path="/multi-family/office-lounge" component={OfficeLounge} />
       <Route exact path="/multi-family/outdoor-lounge" component={OutdoorLounge} />
       <Route exact path="/multi-family/pool" component={Pool} />
     </React.Fragment>

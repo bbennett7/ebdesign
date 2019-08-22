@@ -30,7 +30,6 @@ export default class NavBar extends Component {
                 <NavDropdown.Item eventKey="4.5"><Link to="/multi-family/exterior"> Exterior </Link></NavDropdown.Item>
                 <NavDropdown.Item eventKey="4.4"><Link to="/multi-family/fitness-center"> Fitness Center </Link></NavDropdown.Item>
                 <NavDropdown.Item eventKey="4.1"><Link to="/multi-family/leasing-office"> Leasing Office </Link></NavDropdown.Item>
-                <NavDropdown.Item eventKey="4.3"><Link to="/multi-family/office-lounge"> Office Lounge </Link></NavDropdown.Item>
                 <NavDropdown.Item eventKey="4.4"><Link to="/multi-family/outdoor-lounge"> Outdoor Lounge </Link></NavDropdown.Item>
                 <NavDropdown.Item eventKey="4.2"><Link to="/multi-family/pool"> Pool </Link></NavDropdown.Item>
               </NavDropdown>
