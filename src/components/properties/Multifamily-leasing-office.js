@@ -7,6 +7,7 @@ import BayshoreLeasingOffice2 from '../../images/bayshore/Desk.jpg';
 import BayshoreLeasingOffice3 from '../../images/bayshore/Chairs.jpg';
 import ChadLeasingOffice from '../../images/chadwick/Leasing-office.jpg';
 import CorsicaLeasingOffice from '../../images/corsica/Leasing-office.jpg';
+import HarborLeasingOffice from '../../images/harborview/Leasing-office.jpg';
 import LexLeasingOffice1 from '../../images/lexington/Leasing-office.jpg';
 import LexLeasingOffice2 from '../../images/lexington/Leasing-interior.jpg';
 import RockLeasingOffice from '../../images/rockwood/Leasing-office.jpg';
@@ -77,6 +78,16 @@ export default class LeasingOffice extends Component {
             <img
               className="Carousel-image"
               src={P5LeasingOffice2}
+              alt=""
+            />
+            <Carousel.Caption>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              className="Carousel-image"
+              src={HarborLeasingOffice}
               alt=""
             />
             <Carousel.Caption>

@@ -21,6 +21,7 @@ export default class NavBar extends Component {
                <NavDropdown.Item eventKey="4.2"> <Link to="/multi-family/Bayshore"> Bayshore </Link> </NavDropdown.Item>
                <NavDropdown.Item eventKey="4.3"> <Link to="/multi-family/The-Chadwick"> Chadwick </Link> </NavDropdown.Item>
                <NavDropdown.Item eventKey="4.4"> <Link to="/multi-family/Corsica"> Corsica </Link> </NavDropdown.Item>
+               <NavDropdown.Item eventKey="5.6"><Link to="/multi-family/Harborview"> Harborview </Link></NavDropdown.Item>
                <NavDropdown.Item eventKey="4.5"> <Link to="/multi-family/The-Lexington"> The Lexington </Link></NavDropdown.Item>
                <NavDropdown.Item eventKey="4.6"> <Link to="/multi-family/Parc-5"> Parc @ 5 </Link> </NavDropdown.Item>
                <NavDropdown.Item eventKey="4.7"> <Link to="/multi-family/Rockwood"> Rockwood </Link> </NavDropdown.Item>

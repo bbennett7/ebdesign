@@ -14,6 +14,7 @@ import Bayridge from './components/Properties/Bayridge';
 import Bayshore from './components/Properties/Bayshore';
 import Chadwick from './components/Properties/Chadwick';
 import Corsica from './components/Properties/Corsica';
+import Harborview from './components/Properties/Harborview'
 import Lexington from './components/Properties/Lexington';
 import Parc5 from './components/Properties/Parc5';
 import Rockwood from './components/Properties/Rockwood';
@@ -43,6 +44,7 @@ ReactDOM.render(
       <Route exact path="/multi-family/Bayshore" component={Bayshore} />
       <Route exact path="/multi-family/The-Chadwick" component={Chadwick} />
       <Route exact path="/multi-family/Corsica" component={Corsica} />
+      <Route exact path="/multi-family/Harborview" component={Harborview} />
       <Route exact path="/multi-family/The-Lexington" component={Lexington} />
       <Route exact path="/multi-family/Parc-5" component={Parc5} />
       <Route exact path="/multi-family/Rockwood" component={Rockwood} />

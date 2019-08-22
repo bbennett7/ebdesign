@@ -6,7 +6,7 @@ import BayridgePool from '../../images/bayridge/Pool-area.jpg';
 import ChadwickPool from '../../images/chadwick/Pool.jpg';
 import CorsicaPool1 from '../../images/corsica/Pool-area.jpg';
 import CorsicaPool2 from '../../images/corsica/Pool.jpg';
-import LexingtonPool from '../../images/lexington/Pool.jpg';
+import HarborPool from '../../images/harborview/Pool1.jpg';
 import P5Pool1 from '../../images/parc5/Game-board.jpg';
 import P5Pool2 from '../../images/parc5/Pool-area.jpg';
 import P5Pool3 from '../../images/parc5/Pool-tray.jpg';
@@ -46,6 +46,16 @@ export default class Pool extends Component {
             <img
               className="Carousel-image"
               src={VicinoPool3}
+              alt=""
+            />
+            <Carousel.Caption>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              className="Carousel-image"
+              src={HarborPool}
               alt=""
             />
             <Carousel.Caption>
@@ -126,16 +136,6 @@ export default class Pool extends Component {
             <img
               className="Carousel-image"
               src={RockPool}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={LexingtonPool}
               alt=""
             />
             <Carousel.Caption>
