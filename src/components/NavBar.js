@@ -37,10 +37,10 @@ export default class NavBar extends Component {
         </Nav.Item>
         <Nav.Item>
           <NavDropdown title="Residential" className="Top-level nav-dropdown nav-border">
-            <NavDropdown.Item eventKey="4.1" href="/residential/kitchen">Kitchen</NavDropdown.Item>
-            <NavDropdown.Item eventKey="4.2">Living Room</NavDropdown.Item>
-            <NavDropdown.Item eventKey="4.3">Outdoor Lounge</NavDropdown.Item>
-            <NavDropdown.Item eventKey="4.4">Pool</NavDropdown.Item>
+            <NavDropdown.Item eventKey="4.1"> <Link to="/residential/kitchen"> Kitchen </Link> </NavDropdown.Item>
+            <NavDropdown.Item eventKey="4.2"> <Link> Living Room </Link> </NavDropdown.Item>
+            <NavDropdown.Item eventKey="4.3"><Link> Outdoor Lounge </Link> </NavDropdown.Item>
+            <NavDropdown.Item eventKey="4.4"><Link> Pool </Link> </NavDropdown.Item>
            </NavDropdown>
         </Nav.Item>
         <Nav.Item>
