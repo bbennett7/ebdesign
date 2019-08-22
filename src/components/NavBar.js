@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../App.css'
 import DropdownButton from 'react-bootstrap/DropdownButton'
 import Dropdown from 'react-bootstrap/Dropdown'
+import { Link } from 'react-router-dom';
 
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 
@@ -17,13 +18,13 @@ export default class NavBar extends Component {
         <Nav.Item>
           <NavDropdown title="Multi-family" className="Top-level nav-dropdown nav-border">
             <NavDropdown drop="right" variant="secondary" title="By Property" className="Second-level nav-dropdown">
-               <NavDropdown.Item eventKey="4.2" href="/multi-family/Bayshore">Bayshore</NavDropdown.Item>
-               <NavDropdown.Item eventKey="4.3" href="/multi-family/The-Chadwick">Chadwick</NavDropdown.Item>
-               <NavDropdown.Item eventKey="4.4" href="/multi-family/Corsica">Corsica</NavDropdown.Item>
-               <NavDropdown.Item eventKey="4.5" href="/multi-family/The-Lexington">The Lexington</NavDropdown.Item>
-               <NavDropdown.Item eventKey="4.6" href="/multi-family/Parc-5">Parc @ 5</NavDropdown.Item>
-               <NavDropdown.Item eventKey="4.7" href="/multi-family/Rockwood">Rockwood</NavDropdown.Item>
-               <NavDropdown.Item eventKey="4.8" href="/multi-family/Vicino">Vicino</NavDropdown.Item>
+               <NavDropdown.Item eventKey="4.2"> <Link to="/multi-family/Bayshore"> Bayshore </Link> </NavDropdown.Item>
+               <NavDropdown.Item eventKey="4.3"> <Link to="/multi-family/The-Chadwick"> Chadwick </Link> </NavDropdown.Item>
+               <NavDropdown.Item eventKey="4.4"> <Link to="/multi-family/Corsica"> Corsica </Link> </NavDropdown.Item>
+               <NavDropdown.Item eventKey="4.5"> <Link to="/multi-family/The-Lexington"> The Lexington </Link></NavDropdown.Item>
+               <NavDropdown.Item eventKey="4.6"> <Link to="/multi-family/Parc-5"> Parc @ 5 </Link> </NavDropdown.Item>
+               <NavDropdown.Item eventKey="4.7"> <Link to="/multi-family/Rockwood"> Rockwood </Link> </NavDropdown.Item>
+               <NavDropdown.Item eventKey="4.8"> <Link to="/multi-family/Vicino"> Vicino </Link> </NavDropdown.Item>
              </NavDropdown>
              <NavDropdown drop="right" variant="secondary" title="By Area" className="Second-level nav-dropdown">
                 <NavDropdown.Item eventKey="4.1">Leasing Office</NavDropdown.Item>
