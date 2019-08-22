@@ -18,8 +18,10 @@ import Lexington from './components/Properties/Lexington';
 import Parc5 from './components/Properties/Parc5';
 import Rockwood from './components/Properties/Rockwood';
 import Vicino from './components/Properties/Vicino';
+import Barbecue from './components/Properties/Multifamily-barbecue';
 import Exterior from './components/Properties/Multifamily-exterior';
 import FitnessCenter from './components/Properties/Multifamily-fitness-center';
+import GameRoom from './components/Properties/Multifamily-game-room';
 import LeasingOffice from './components/Properties/Multifamily-leasing-office';
 import OutdoorLounge from './components/Properties/Multifamily-outdoor-lounge';
 import Pool from './components/Properties/Multifamily-pool';
@@ -46,8 +48,10 @@ ReactDOM.render(
       <Route exact path="/multi-family/Rockwood" component={Rockwood} />
       <Route exact path="/multi-family/Vicino" component={Vicino} />
       <Route exact path="/contact" component={Contact} />
+      <Route exact path="/multi-family/barbecue" component={Barbecue} />
       <Route exact path="/multi-family/exterior" component={Exterior} />
       <Route exact path="/multi-family/fitness-center" component={FitnessCenter} />
+      <Route exact path="/multi-family/game-room" component={GameRoom} />
       <Route exact path="/multi-family/leasing-office" component={LeasingOffice} />
       <Route exact path="/multi-family/outdoor-lounge" component={OutdoorLounge} />
       <Route exact path="/multi-family/pool" component={Pool} />

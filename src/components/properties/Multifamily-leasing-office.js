@@ -10,12 +10,11 @@ import CorsicaLeasingOffice from '../../images/corsica/Leasing-office.jpg';
 import LexLeasingOffice1 from '../../images/lexington/Leasing-office.jpg';
 import LexLeasingOffice2 from '../../images/lexington/Leasing-interior.jpg';
 import RockLeasingOffice from '../../images/rockwood/Leasing-office.jpg';
+import P5LeasingOffice from '../../images/parc5/Leasing-office.jpg';
+import P5LeasingOffice2 from '../../images/parc5/TV-seating.jpg';
 import VicLeasingOffice1 from '../../images/vicino/Center-area.jpg';
 import VicLeasingOffice2 from '../../images/vicino/Lounge-area.jpg';
 import VicLeasingOffice3 from '../../images/vicino/Table.jpg';
-
-
-
 
 export default class LeasingOffice extends Component {
   render() {
@@ -58,6 +57,26 @@ export default class LeasingOffice extends Component {
             <img
               className="Carousel-image"
               src={LexLeasingOffice1}
+              alt=""
+            />
+            <Carousel.Caption>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              className="Carousel-image"
+              src={P5LeasingOffice}
+              alt=""
+            />
+            <Carousel.Caption>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              className="Carousel-image"
+              src={P5LeasingOffice2}
               alt=""
             />
             <Carousel.Caption>
