@@ -28,7 +28,7 @@ export default class NavBar extends Component {
              </NavDropdown>
              <NavDropdown drop="right" variant="secondary" title="By Area" className="Second-level nav-dropdown">
                 <NavDropdown.Item eventKey="4.5"><Link to="/multi-family/exterior"> Exterior </Link></NavDropdown.Item>
-                <NavDropdown.Item eventKey="4.4"><Link to="/multi-family/gym"> Gym </Link></NavDropdown.Item>
+                <NavDropdown.Item eventKey="4.4"><Link to="/multi-family/fitness-center"> Fitness Center </Link></NavDropdown.Item>
                 <NavDropdown.Item eventKey="4.1"><Link to="/multi-family/leasing-office"> Leasing Office </Link></NavDropdown.Item>
                 <NavDropdown.Item eventKey="4.3"><Link to="/multi-family/office-lounge"> Office Lounge </Link></NavDropdown.Item>
                 <NavDropdown.Item eventKey="4.4"><Link to="/multi-family/outdoor-lounge"> Outdoor Lounge </Link></NavDropdown.Item>

@@ -2,32 +2,21 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
-import P5Exterior from '../../images/parc5/Exterior.jpg';
-import LexEntrance from '../../images/lexington/Entrance.jpg';
-import LexExterior from '../../images/lexington/Exterior-building.jpg';
-import LexMainExterior from '../../images/lexington/Main-exterior.jpg';
-import VExterior from '../../images/vicino/Leasing-office-exterior.jpg';
+import CGym from '../../images/corsica/Gym.jpg';
+import RFitnessCenter from '../../images/rockwood/Fitness-center.jpg';
+import VGym from '../../images/vicino/Gym.jpg';
+import VTreadmills from '../../images/vicino/Treadmills.jpg';
 
-export default class Exterior extends Component {
+export default class FitnessCenter extends Component {
   render() {
     return(
       <div className="Property">
-        <h4>Exterior</h4>
+        <h4>Fitness Center</h4>
         <Carousel interval="null" className="Carousel">
           <Carousel.Item>
             <img
               className="Carousel-image"
-              src={P5Exterior}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
-          
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={VExterior}
+              src={CGym}
               alt=""
             />
             <Carousel.Caption>
@@ -37,7 +26,7 @@ export default class Exterior extends Component {
           <Carousel.Item>
             <img
               className="Carousel-image"
-              src={LexEntrance}
+              src={RFitnessCenter}
               alt=""
             />
             <Carousel.Caption>
@@ -47,7 +36,7 @@ export default class Exterior extends Component {
           <Carousel.Item>
             <img
               className="Carousel-image"
-              src={LexMainExterior}
+              src={VGym}
               alt=""
             />
             <Carousel.Caption>
@@ -57,12 +46,13 @@ export default class Exterior extends Component {
           <Carousel.Item>
             <img
               className="Carousel-image"
-              src={LexExterior}
+              src={VTreadmills}
               alt=""
             />
             <Carousel.Caption>
             </Carousel.Caption>
           </Carousel.Item>
+
         </Carousel>
       </div>
     )
