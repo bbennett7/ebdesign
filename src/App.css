@@ -222,13 +222,12 @@ p {
     margin-bottom: 20%;
 }
 
-.Contact-text {
+.Contact-header {
   vertical-align: top;
   text-align: justify;
 }
 
 .Address {
-  float: left;
 }
 
 .Address-header {
@@ -236,20 +235,19 @@ p {
 }
 
 .Address-text {
-  line-height: 0px;
+  line-height: 3px;
 }
 
 .Iframe {
-  float: right;
   border: 1px solid black;
   border-right: 2px solid black;
-  vertical-align: top;
+  margin: auto;
 }
 
 .Phone-text {
   display: inline-block;
   text-decoration: none;
-  line-height: 0px;
+  line-height: 3px;
   float: left;
 }
 
