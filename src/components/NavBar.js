@@ -40,7 +40,7 @@ export default class NavBar extends Component {
             <NavDropdown.Item eventKey="4.1"> <Link to="/residential/bathroom"> Bathroom </Link> </NavDropdown.Item>
             <NavDropdown.Item eventKey="4.1"> <Link to="/residential/kitchen"> Kitchen </Link> </NavDropdown.Item>
             <NavDropdown.Item eventKey="4.2"> <Link to="/residential/living-room"> Living Room </Link> </NavDropdown.Item>
-            <NavDropdown.Item eventKey="4.3"><Link> Outdoor Lounge </Link> </NavDropdown.Item>
+            <NavDropdown.Item eventKey="4.3"><Link to="/residential/backyard"> Backyard </Link> </NavDropdown.Item>
             <NavDropdown.Item eventKey="4.4"><Link> Pool </Link> </NavDropdown.Item>
            </NavDropdown>
         </Nav.Item>

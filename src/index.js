@@ -6,6 +6,7 @@ import './index.css';
 import App from './App';
 import Home from './components/Home';
 import About from './components/About';
+import Backyard from './components/Properties/Residential-backyard';
 import Bathroom from './components/Properties/Residential-bathroom';
 import Kitchen from './components/Properties/Residential-kitchen';
 import LivingRoom from './components/Properties/Residential-living-room';
@@ -27,6 +28,7 @@ ReactDOM.render(
       <Route exact path="/" component={Home} />
       <Route exact path="/home" component={Home} />
       <Route exact path="/about" component={About} />
+      <Route exact path="/residential/backyard" component={Backyard} />
       <Route exact path="/residential/bathroom" component={Bathroom} />
       <Route exact path="/residential/kitchen" component={Kitchen} />
       <Route exact path="/residential/living-room" component={LivingRoom} />
