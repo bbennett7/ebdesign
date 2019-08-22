@@ -146,6 +146,7 @@ export default class LeasingOffice extends Component {
             </Carousel.Caption>
           </Carousel.Item>
 
+
           <Carousel.Item>
             <img
               className="Carousel-image"
