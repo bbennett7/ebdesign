@@ -4,6 +4,8 @@ import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
 import B1 from '../../images/residential-bathroom/B1.jpg';
 import B2 from '../../images/residential-bathroom/B2.jpg';
+import B3 from '../../images/residential-bathroom/B3.jpg';
+
 
 export default class Bathroom extends Component {
   render() {
@@ -15,7 +17,7 @@ export default class Bathroom extends Component {
             <img
               className="Carousel-image"
               src={B1}
-              alt="Second Kitchen"
+              alt="First bathroom"
             />
             <Carousel.Caption>
             </Carousel.Caption>
@@ -25,7 +27,17 @@ export default class Bathroom extends Component {
             <img
               className="Carousel-image"
               src={B2}
-              alt="Second Kitchen"
+              alt="Second Bathroom"
+            />
+            <Carousel.Caption>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              className="Carousel-image"
+              src={B3}
+              alt="Third Bathroom"
             />
             <Carousel.Caption>
             </Carousel.Caption>
