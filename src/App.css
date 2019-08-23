@@ -299,7 +299,6 @@ p {
     width: 150%;
   }
 
-
   .one {
     margin-left: -25%;
   }
@@ -318,6 +317,10 @@ p {
 
   .seven {
     margin-left: -18%;
+  }
+
+  .About, .Residential, .Commercial {
+    grid-template: auto / 10% 40% 40% 10%;
   }
 }
 
@@ -359,6 +362,10 @@ p {
 
   .one, .four, .five, .six, .seven {
     margin-left: 0%;
+  }
+
+  .About, .Residential, .Commercial {
+    grid-template: auto / 10% 40% 40% 10%;
   }
 }
 
