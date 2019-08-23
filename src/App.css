@@ -322,6 +322,14 @@ p {
   .About, .Residential, .Commercial {
     grid-template: auto / 10% 40% 40% 10%;
   }
+
+  .Contact {
+    grid-template: 15% 50% 50% 15% / 10% 40% 40% 10%;
+  }
+
+  .Iframe {
+    height: 53%;
+  }
 }
 
 /* Computer screen */
@@ -331,6 +339,10 @@ p {
     text-align: center;
     display: grid;
     grid-template: 1fr .35fr / 25% 25% 25% 25%;
+  }
+
+  .Nav-bar {
+    margin-bottom: 2%;
   }
 
   .EB-logo {
@@ -366,6 +378,15 @@ p {
 
   .About, .Residential, .Commercial {
     grid-template: auto / 10% 40% 40% 10%;
+  }
+
+  .Contact {
+    padding-top: 0px;
+    grid-template: 15% 50% 45% 20% / 20% 30% 30% 20%;
+  }
+
+  .Iframe {
+    height: 55%;
   }
 }
 
