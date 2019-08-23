@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
-import Bathroom from '../images/home-carousel/Bathroom.jpg';
-import Kitchen from '../images/home-carousel/Kitchen.jpg';
-import LeasingOffice from '../images/home-carousel/LeasingOffice.jpg';
-import Platter from '../images/home-carousel/Platter.jpg';
-import Pool from '../images/home-carousel/Pool.jpg';
+
+import Pool from '../images/chadwick/Pool.jpg';
+import Gym from '../images/vicino/Gym.jpg';
+import Exterior from '../images/harborview/Exterior.jpg';
+import GameRoom from '../images/rockwood/Pool-table.jpg';
+import LeasingOffice from '../images/vicino/Center-area.jpg';
+import OutdoorLounge from '../images/chadwick/Fireplace.png';
+import Pool2 from '../images/vicino/Chaise-lounges.jpg';
 
 export default class Home extends Component {
   render() {
@@ -14,7 +17,7 @@ export default class Home extends Component {
         <Carousel className="Home-carousel">
           <Carousel.Item>
             <img
-              className="Home-carousel-image"
+              className="Home-carousel-image one"
               src={Pool}
               alt=""
             />
@@ -24,7 +27,27 @@ export default class Home extends Component {
 
           <Carousel.Item>
             <img
-              className="Home-carousel-image"
+              className="Home-carousel-image one"
+              src={Gym}
+              alt=""
+            />
+            <Carousel.Caption>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              className="Home-carousel-image one"
+              src={Exterior}
+              alt=""
+            />
+            <Carousel.Caption>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              className="Home-carousel-image four"
               src={LeasingOffice}
               alt=""
             />
@@ -34,8 +57,8 @@ export default class Home extends Component {
 
           <Carousel.Item>
             <img
-              className="Home-carousel-image"
-              src={Kitchen}
+              className="Home-carousel-image five"
+              src={OutdoorLounge}
               alt=""
             />
             <Carousel.Caption>
@@ -44,8 +67,8 @@ export default class Home extends Component {
 
           <Carousel.Item>
             <img
-              className="Home-carousel-image"
-              src={Platter}
+              className="Home-carousel-image six"
+              src={Pool2}
               alt=""
             />
             <Carousel.Caption>
@@ -54,8 +77,8 @@ export default class Home extends Component {
 
           <Carousel.Item>
             <img
-              className="Home-carousel-image"
-              src={Bathroom}
+              className="Home-carousel-image one"
+              src={GameRoom}
               alt=""
             />
             <Carousel.Caption>

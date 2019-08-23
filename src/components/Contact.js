@@ -7,16 +7,17 @@ export default class Contact extends Component {
     return (
       <div className="Contact">
         <div className="Contact-content">
-          <h4 className="Contact-header">Contact Erin Boyle Design</h4>
+          <h4 className="Contact-header">Contact Erin Boyle Design Inc.</h4>
           <br />
           <div className="Address">
-            <p className="Address-text">9454 Wilshire Blvd</p>
+            <p className="Address-text">9454 Wilshire Blvd., Penthouse</p>
             <p className="Address-text">Beverly Hills, CA 90212</p>
           </div>
           <br />
           <div className="Contact-info">
             <h5 className="Phone-text">p:</h5>
             <p className="Phone-text">&nbsp;(310) 589-1963</p><br />
+
             <h5 className="Phone-text">e:</h5>
             <p className="Phone-text">&nbsp;erin@ebdesign.com</p>
           </div>

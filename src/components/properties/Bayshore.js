@@ -12,69 +12,71 @@ import PoolTable from '../../images/bayshore/Pool-table.jpg';
 export default class Bayshore extends Component {
   render() {
     return(
-      <div className="Property">
-        <h4>Bayshore</h4>
-        <Carousel interval="null" className="Carousel">
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={CommonArea}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+      <div className="Property-grid">
+        <div className="Property">
+          <h4>Bayshore</h4>
+          <Carousel interval="null" className="Carousel">
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={CommonArea}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={PoolTable}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={PoolTable}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={Kitchen}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={Kitchen}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={Chairs}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={Chairs}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={Bench}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={Bench}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={Desk}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={Desk}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+        </div>
       </div>
     )
   }
