@@ -77,7 +77,7 @@ export default class Home extends Component {
 
           <Carousel.Item>
             <img
-              className="Home-carousel-image one"
+              className="Home-carousel-image seven"
               src={GameRoom}
               alt=""
             />
