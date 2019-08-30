@@ -14,89 +14,91 @@ import PoolSeating from '../../images/chadwick/Pool-seating.png';
 export default class Chadwick extends Component {
   render() {
     return(
-      <div className="Property">
-        <h4>The Chadwick</h4>
-        <Carousel interval="null" className="Carousel">
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={PoolSeating}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+      <div className="Property-grid">
+        <div className="Property">
+          <h4>The Chadwick</h4>
+          <Carousel interval="null" className="Carousel">
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={PoolSeating}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={Fireplace}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={Fireplace}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={Seating}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={Seating}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={BBQs}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={BBQs}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={Pool}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={Pool}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={LeasingOffice}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={LeasingOffice}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={GameRoom}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={GameRoom}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={WorkStation}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={WorkStation}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+        </div>
       </div>
     )
   }
