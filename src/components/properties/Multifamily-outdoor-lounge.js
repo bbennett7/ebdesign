@@ -16,89 +16,91 @@ import VicODL2 from '../../images/vicino/Outdoor-TV.jpg';
 export default class OutdoorLounge extends Component {
   render() {
     return(
-      <div className="Property">
-        <h4>Outdoor Lounge</h4>
-        <Carousel interval="null" className="Carousel">
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={ChadwickODL}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+      <div className="Property-grid">
+        <div className="Property">
+          <h4>Outdoor Lounge</h4>
+          <Carousel interval="null" className="Carousel">
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={ChadwickODL}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={ChadwickODL1}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={ChadwickODL1}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={VicODL}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={VicODL}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={VicODL2}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={VicODL2}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={BayridgeODL}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={BayridgeODL}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={RockODL}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={RockODL}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={RockODL2}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={RockODL2}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={P5ODL}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={P5ODL}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+        </div>
       </div>
     )
   }

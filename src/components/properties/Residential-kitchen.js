@@ -11,59 +11,61 @@ import K5 from '../../images/residential-kitchen/K5.jpg';
 export default class Kitchen extends Component {
   render() {
     return(
-      <div className="Property">
-        <h4>Kitchen</h4>
-        <Carousel interval="null" className="Carousel">
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={K2}
-              alt="Second Kitchen"
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+      <div className="Property-grid">
+        <div className="Property">
+          <h4>Kitchen</h4>
+          <Carousel interval="null" className="Carousel">
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={K2}
+                alt="Second Kitchen"
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={K3}
-              alt="Third Kitchen"
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={K3}
+                alt="Third Kitchen"
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={K1}
-              alt="First Kitchen"
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={K1}
+                alt="First Kitchen"
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={K4}
-              alt="Fourth Kitchen"
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={K4}
+                alt="Fourth Kitchen"
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={K5}
-              alt="Fifth Kitchen"
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={K5}
+                alt="Fifth Kitchen"
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+        </div>
       </div>
     )
   }

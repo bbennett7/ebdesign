@@ -11,60 +11,62 @@ import VTreadmills from '../../images/vicino/Treadmills.jpg';
 export default class FitnessCenter extends Component {
   render() {
     return(
-      <div className="Property">
-        <h4>Fitness Center</h4>
-        <Carousel interval="null" className="Carousel">
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={VGym}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+      <div className="Property-grid">
+        <div className="Property">
+          <h4>Fitness Center</h4>
+          <Carousel interval="null" className="Carousel">
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={VGym}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={VTreadmills}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={VTreadmills}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={HarborGym}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
-          
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={CGym}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={HarborGym}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="Carousel-image"
-              src={RFitnessCenter}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={CGym}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
 
-        </Carousel>
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={RFitnessCenter}
+                alt=""
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
+
+          </Carousel>
+        </div>
       </div>
     )
   }

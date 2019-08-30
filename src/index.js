@@ -10,7 +10,6 @@ import Backyard from './components/Properties/Residential-backyard';
 import Bathroom from './components/Properties/Residential-bathroom';
 import Kitchen from './components/Properties/Residential-kitchen';
 import LivingRoom from './components/Properties/Residential-living-room';
-import Bayridge from './components/Properties/Bayridge';
 import Bayshore from './components/Properties/Bayshore';
 import Chadwick from './components/Properties/Chadwick';
 import Corsica from './components/Properties/Corsica';
@@ -41,7 +40,6 @@ ReactDOM.render(
       <Route exact path="/residential/bathroom" component={Bathroom} />
       <Route exact path="/residential/kitchen" component={Kitchen} />
       <Route exact path="/residential/living-room" component={LivingRoom} />
-      <Route exact path="/multi-family/Bayridge" component={Bayridge} />
       <Route exact path="/multi-family/Bayshore" component={Bayshore} />
       <Route exact path="/multi-family/The-Chadwick" component={Chadwick} />
       <Route exact path="/multi-family/Corsica" component={Corsica} />
