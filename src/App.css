@@ -329,6 +329,10 @@ p {
     width: 150%;
   }
 
+  .dropdown-menu {
+    margin: 0 50%;
+  }
+
   .one {
     margin-left: -25%;
   }
@@ -382,6 +386,10 @@ p {
 
   .Nav-bar {
     margin-bottom: 2%;
+  }
+
+  .dropdown-menu {
+    margin: 0 50%;
   }
 
   .EB-logo {
