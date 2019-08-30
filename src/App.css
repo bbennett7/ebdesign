@@ -130,6 +130,10 @@ p {
   border-bottom: 1.25px black solid;
 }
 
+.nav-item {
+  font-size: 90%;
+}
+
 .Nav-button, .Top-level {
   text-align: center;
   font-size: 100%;
@@ -327,6 +331,10 @@ a.dropdown-item:active {
     width: 50%;
   }
 
+  .nav-item {
+    font-size: 100%;
+  }
+
   .Home {
     margin-top: 2%;
     grid-template-rows: 100%;
@@ -397,6 +405,10 @@ a.dropdown-item:active {
 
   .Nav-bar {
     margin-bottom: 2%;
+  }
+
+  .nav-item {
+    font-size: 100%;
   }
 
   .dropdown-menu {

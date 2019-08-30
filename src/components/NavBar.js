@@ -47,6 +47,9 @@ export default class NavBar extends Component {
           </NavDropdown>
         </Nav.Item>
         <Nav.Item>
+          <Nav.Link className="nav-border"> <Link to="/services"> Services </Link> </Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
           <Nav.Link className="nav-border"> <Link to="/about"> About </Link> </Nav.Link>
         </Nav.Item>
         <Nav.Item>
