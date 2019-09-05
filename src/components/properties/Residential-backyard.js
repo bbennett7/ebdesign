@@ -6,6 +6,7 @@ import BY1 from '../../images/residential-backyard/BY1.jpg';
 import BY2 from '../../images/residential-backyard/BY2.jpg';
 import BY3 from '../../images/residential-backyard/BY3.jpg';
 import BY4 from '../../images/residential-backyard/BY4.jpg';
+import BY5 from '../../images/residential-backyard/BY5.jpg';
 
 export default class Backyard extends Component {
   render() {
@@ -29,6 +30,16 @@ export default class Backyard extends Component {
                 className="Carousel-image"
                 src={BY4}
                 alt="Fourth backyard"
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={BY5}
+                alt="First backyard"
               />
               <Carousel.Caption>
               </Carousel.Caption>

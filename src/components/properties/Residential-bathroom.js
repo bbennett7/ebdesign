@@ -5,6 +5,7 @@ import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 import B1 from '../../images/residential-bathroom/B1.jpg';
 import B2 from '../../images/residential-bathroom/B2.jpg';
 import B3 from '../../images/residential-bathroom/B3.jpg';
+import B4 from '../../images/residential-bathroom/B4.jpg';
 
 
 export default class Bathroom extends Component {
@@ -39,6 +40,16 @@ export default class Bathroom extends Component {
                 className="Carousel-image"
                 src={B3}
                 alt="Third Bathroom"
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={B4}
+                alt="Fourth Bathroom"
               />
               <Carousel.Caption>
               </Carousel.Caption>
