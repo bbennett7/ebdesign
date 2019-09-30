@@ -13,7 +13,7 @@ export default class NavBar extends Component {
     return (
       <Nav fill className="Nav-bar">
         <Nav.Item>
-          <Nav.Link className="nav-border"><Link to="/home"> Home </Link></Nav.Link>
+          <Nav.Link className="nav-border nav-item"><Link to="/home"> Home </Link></Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <NavDropdown title="Multi-family" className="Top-level nav-dropdown nav-border">
@@ -47,13 +47,13 @@ export default class NavBar extends Component {
           </NavDropdown>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link className="nav-border"> <Link to="/services"> Services </Link> </Nav.Link>
+          <Nav.Link className="nav-border nav-item"> <Link to="/services"> Services </Link> </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link className="nav-border"> <Link to="/about"> About </Link> </Nav.Link>
+          <Nav.Link className="nav-border nav-item"> <Link to="/about"> About </Link> </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link className="nav-border" href="/contact"><Link to="/contact"> Contact </Link></Nav.Link>
+          <Nav.Link className="nav-border nav-item" href="/contact"><Link to="/contact"> Contact </Link></Nav.Link>
         </Nav.Item>
       </Nav>
     )
