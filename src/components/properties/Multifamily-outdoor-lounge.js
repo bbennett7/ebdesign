@@ -19,7 +19,7 @@ export default class OutdoorLounge extends Component {
       <div className="Property-grid">
         <div className="Property">
           <h4>Outdoor Lounge</h4>
-          <Carousel interval="null" className="Carousel">
+          <Carousel className="Carousel">
             <Carousel.Item>
               <img
                 className="Carousel-image"

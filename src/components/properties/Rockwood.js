@@ -16,7 +16,7 @@ export default class Rockwood extends Component {
       <div className="Property-grid">
         <div className="Property">
           <h4>Rockwood</h4>
-          <Carousel interval="null" className="Carousel">
+          <Carousel className="Carousel">
             <Carousel.Item>
               <img
                 className="Carousel-image"

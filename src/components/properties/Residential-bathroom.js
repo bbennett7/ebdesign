@@ -14,7 +14,7 @@ export default class Bathroom extends Component {
       <div className="Property-grid">
         <div className="Property">
           <h4>Bathroom</h4>
-          <Carousel interval="null" className="Carousel">
+          <Carousel className="Carousel">
             <Carousel.Item>
               <img
                 className="Carousel-image"

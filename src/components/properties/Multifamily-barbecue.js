@@ -14,7 +14,7 @@ export default class Barbecue extends Component {
       <div className="Property-grid">
         <div className="Property">
           <h4>Barbecue</h4>
-          <Carousel interval="null" className="Carousel">
+          <Carousel className="Carousel">
             <Carousel.Item>
               <img
                 className="Carousel-image"

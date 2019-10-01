@@ -25,7 +25,7 @@ export default class LeasingOffice extends Component {
       <div className="Property-grid">
         <div className="Property">
           <h4>Leasing Office</h4>
-          <Carousel interval="null" className="Carousel">
+          <Carousel className="Carousel">
 
             <Carousel.Item>
               <img

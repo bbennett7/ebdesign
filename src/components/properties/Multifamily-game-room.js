@@ -13,7 +13,7 @@ export default class GameRoom extends Component {
       <div className="Property-grid">
         <div className="Property">
           <h4>Game Room</h4>
-          <Carousel interval="null" className="Carousel">
+          <Carousel className="Carousel">
             <Carousel.Item>
               <img
                 className="Carousel-image"
