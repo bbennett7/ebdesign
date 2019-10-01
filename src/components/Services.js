@@ -33,10 +33,10 @@ export default class Services extends Component {
             <p>TruAmerica</p>
             <p>City View</p>
             <p>Kennedy Wilson</p>
-            <p>Alcove</p>
+            <p>Alcole Properties</p>
+            <p>Greystar Management</p>
+            <p>FPI Management</p>
             <p>E&S Ring Management</p>
-            <p>Greystone Management</p>
-            <p>RPI Management</p>
           </div>
 
         </div>
