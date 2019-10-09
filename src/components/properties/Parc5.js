@@ -8,10 +8,7 @@ import GrillArea from '../../images/parc5/Grill-area.jpg';
 import LeasingOffice from '../../images/parc5/Leasing-office.jpg';
 import PoolArea from '../../images/parc5/Pool-area.jpg';
 import PoolLounge from '../../images/parc5/Pool-lounge.jpg';
-import PoolTray from '../../images/parc5/Pool-tray.jpg';
-import TVArea from '../../images/parc5/TV-area.jpg';
 import TVSeating from '../../images/parc5/TV-seating.jpg';
-import TV from '../../images/parc5/TV.jpg';
 
 
 export default class Parc5 extends Component {
@@ -44,27 +41,7 @@ export default class Parc5 extends Component {
             <Carousel.Item>
               <img
                 className="Carousel-image"
-                src={TVArea}
-                alt=""
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                className="Carousel-image"
                 src={TVSeating}
-                alt=""
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={TV}
                 alt=""
               />
               <Carousel.Caption>
@@ -105,16 +82,6 @@ export default class Parc5 extends Component {
               <img
                 className="Carousel-image"
                 src={PoolLounge}
-                alt=""
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={PoolTray}
                 alt=""
               />
               <Carousel.Caption>
