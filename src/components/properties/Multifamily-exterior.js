@@ -6,7 +6,6 @@ import CountryOaksExterior from '../../images/country-oaks/Exterior.jpg';
 import P5Exterior from '../../images/parc5/Exterior.jpg';
 import HarborExterior from '../../images/harborview/Exterior.jpg';
 import LexEntrance from '../../images/lexington/Entrance.jpg';
-import LexExterior from '../../images/lexington/Exterior-building.jpg';
 import LexMainExterior from '../../images/lexington/Main-exterior.jpg';
 import VExterior from '../../images/vicino/Leasing-office-exterior.jpg';
 
@@ -71,16 +70,6 @@ export default class Exterior extends Component {
               <img
                 className="Carousel-image"
                 src={LexMainExterior}
-                alt=""
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={LexExterior}
                 alt=""
               />
               <Carousel.Caption>
