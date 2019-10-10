@@ -8,8 +8,7 @@ import BayshoreLeasingOffice3 from '../../images/bayshore/Chairs.jpg';
 import ChadLeasingOffice from '../../images/chadwick/Leasing-office.jpg';
 import CorsicaLeasingOffice from '../../images/corsica/Leasing-office.jpg';
 import HarborLeasingOffice from '../../images/harborview/Leasing-office.jpg';
-import LexLeasingOffice1 from '../../images/lexington/Leasing-office.jpg';
-import LexLeasingOffice2 from '../../images/lexington/Leasing-interior.jpg';
+import LexLeasingOffice from '../../images/lexington/Leasing-office.jpg';
 import RockLeasingOffice from '../../images/rockwood/Leasing-office.jpg';
 import P5LeasingOffice from '../../images/parc5/Leasing-office.jpg';
 import P5LeasingOffice2 from '../../images/parc5/TV-seating.jpg';
@@ -80,7 +79,7 @@ export default class LeasingOffice extends Component {
             <Carousel.Item>
               <img
                 className="Carousel-image"
-                src={LexLeasingOffice1}
+                src={LexLeasingOffice}
                 alt=""
               />
               <Carousel.Caption>
