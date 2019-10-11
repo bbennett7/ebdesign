@@ -124,7 +124,7 @@ p {
   padding-top: 5px;
 }
 
-.Nav-bar {
+.nav {
   grid-area: 2 / 1 / 2 / 5;
   background-color: var(--header-background-color);
   width: 100%;
@@ -153,44 +153,17 @@ a {
 
 .Second-level {
   margin: 0 10px;
-  font-size: 100%;
 }
 
-.Inner-drop {
-  font-size: 110%;
-}
-
-/* .Second-level a {
-  font-size: 80%;
-} */
-
-.nav-item .dropdown-menu {
-  font-size: 95%;
+.Bottom-level {
+  padding-left: 10px;
+  display: block;
+  width: 150px;
 }
 
 .nav-link {
   padding: 0;
   font-family: var(--city-font-family);
-}
-
-.nav-link a {
-  font-size: 90%;
-  font-family: var(--city-font-family);
-}
-
-.dropdown-menu {
-  min-width: 5rem;
-}
-
-.dropdown-item.active {
-  background-color: rgb(248 249 250);
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-}
-
-a.dropdown-item:active {
-  background-color: #7d7d7d;
-
 }
 
 /* Home Page */
@@ -371,7 +344,7 @@ a.dropdown-item:active {
     width: 50%;
   }
 
-  .Nav-bar {
+  nav {
     border-top: 1.25px black solid;
     border-bottom: 1.25px black solid;
   }
@@ -449,7 +422,7 @@ a.dropdown-item:active {
     grid-template: 1fr .35fr / 25% 25% 25% 25%;
   }
 
-  .Nav-bar {
+  .nav {
     margin-bottom: 2%;
     border-top: 1.25px black solid;
     border-bottom: 1.25px black solid;
