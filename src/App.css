@@ -43,7 +43,7 @@ a:hover {
 }
 
 a:active {
-  color: var(--background-color);
+  color: rgb(70, 70, 70);
 }
 
 p {
@@ -271,6 +271,9 @@ a {
 .Services-content p {
   font-size: 90%;
   margin-bottom: 2%;
+}
+
+#Services-col, #Clients-col {
   text-align: center;
 }
 
@@ -503,7 +506,7 @@ a {
   .Services-content {
     display: grid;
     grid-template: 100% / 50% 50%;
-    text-align: center;
+    text-align: left;
   }
 
   .Services-list {
@@ -515,7 +518,14 @@ a {
   }
 
   #Services-col {
+    padding-left: 50px;
     column-count: 2;
+    width: 475px;
+    margin: 0 auto;
+  }
+
+  #Services-col p {
+    text-align: left;
   }
 
 }

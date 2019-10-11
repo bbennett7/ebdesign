@@ -7,7 +7,6 @@ import Chairs from '../../images/bayshore/Chairs.jpg';
 import CommonArea from '../../images/bayshore/Common-area.jpg';
 import Desk from '../../images/bayshore/Desk.jpg';
 import Kitchen from '../../images/bayshore/Kitchen.jpg';
-import PoolTable from '../../images/bayshore/Pool-table.jpg';
 
 export default class Bayshore extends Component {
   render() {
@@ -20,16 +19,6 @@ export default class Bayshore extends Component {
               <img
                 className="Carousel-image"
                 src={CommonArea}
-                alt=""
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={PoolTable}
                 alt=""
               />
               <Carousel.Caption>

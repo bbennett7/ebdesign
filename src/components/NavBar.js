@@ -14,7 +14,7 @@ export default class NavBar extends Component {
           <NavDropdown title="Multi-family" className="Top-level">
             <NavDropdown drop="right" variant="secondary" title="By Property" className="Second-level">
               <Link className="Bottom-level" to="/multi-family/Bayshore"> Bayshore </Link>
-              <Link className="Bottom-level" to="/multi-family/The-Chadwick"> Chadwick </Link>
+              <Link className="Bottom-level" to="/multi-family/The-Chadwick"> The Chadwick </Link>
               <Link className="Bottom-level" to="/multi-family/Corsica"> Corsica </Link>
               <Link className="Bottom-level" to="/multi-family/Harborview"> Harborview </Link>
               <Link className="Bottom-level" to="/multi-family/The-Lexington"> The Lexington </Link>

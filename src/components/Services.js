@@ -15,14 +15,16 @@ export default class Services extends Component {
               <p>Vendor Logistics Support</p>
               <p>Custom Furniture</p>
               <p>FF&E Selection & Installation</p>
-              <p>Construction & Renovation Management</p>
+              <p>Furnishings & Fabrics</p>
+              <p>Window Coverings</p>
               <p>Millwork & Cabinet Design</p>
+              <p>Renovation Management</p>
               <p>Custom Renderings</p>
               <p>Finishes Sourcing</p>
               <p>Space Planning</p>
               <p>Lighting Design</p>
-              <p>Window Treatments & Coverings</p>
-              <p>Furnishings & Fabrics</p>
+              <p>Window Treatments</p>
+              <p>Construction Management</p>
             </div>
             <br />
         </div>
@@ -30,13 +32,15 @@ export default class Services extends Component {
 
         <div className="Clients-list">
           <h4> Clients </h4>  
-            <p>TruAmerica</p>
-            <p>City View</p>
-            <p>Kennedy Wilson</p>
-            <p>Alcole Properties</p>
-            <p>Greystar Management</p>
-            <p>FPI Management</p>
-            <p>E&S Ring Management</p>
+            <div id="Clients-col">
+              <p>TruAmerica</p>
+              <p>City View</p>
+              <p>Kennedy Wilson</p>
+              <p>Alcole Properties</p>
+              <p>Greystar Management</p>
+              <p>FPI Management</p>
+              <p>E&S Ring Management</p>
+            </div>
           </div>
 
         </div>

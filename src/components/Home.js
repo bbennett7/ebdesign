@@ -15,30 +15,10 @@ export default class Home extends Component {
     return (
       <div className="Home">
         <Carousel className="Home-carousel">
-          <Carousel.Item>
+        <Carousel.Item>
             <img
-              className="Home-carousel-image one"
-              src={Pool}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <img
-              className="Home-carousel-image one"
-              src={Gym}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <img
-              className="Home-carousel-image one"
-              src={Exterior}
+              className="Home-carousel-image five"
+              src={OutdoorLounge}
               alt=""
             />
             <Carousel.Caption>
@@ -57,8 +37,8 @@ export default class Home extends Component {
 
           <Carousel.Item>
             <img
-              className="Home-carousel-image five"
-              src={OutdoorLounge}
+              className="Home-carousel-image one"
+              src={Gym}
               alt=""
             />
             <Carousel.Caption>
@@ -77,8 +57,28 @@ export default class Home extends Component {
 
           <Carousel.Item>
             <img
+              className="Home-carousel-image one"
+              src={Pool}
+              alt=""
+            />
+            <Carousel.Caption>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
               className="Home-carousel-image seven"
               src={GameRoom}
+              alt=""
+            />
+            <Carousel.Caption>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              className="Home-carousel-image one"
+              src={Exterior}
               alt=""
             />
             <Carousel.Caption>
