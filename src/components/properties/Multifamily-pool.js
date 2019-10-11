@@ -6,7 +6,7 @@ import BayridgePool from '../../images/bayridge/Pool-area.jpg';
 import ChadwickPool from '../../images/chadwick/Pool.jpg';
 import CorsicaPool1 from '../../images/corsica/Pool-area.jpg';
 import CorsicaPool2 from '../../images/corsica/Pool.jpg';
-import HarborPool from '../../images/harborview/Pool1.jpg';
+import HarborPool from '../../images/harborview/Pool.jpg';
 import P5Pool1 from '../../images/parc5/Game-board.jpg';
 import P5Pool2 from '../../images/parc5/Pool-area.jpg';
 import P5Pool3 from '../../images/parc5/Pool-tray.jpg';

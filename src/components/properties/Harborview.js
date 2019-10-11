@@ -7,7 +7,7 @@ import Exterior from '../../images/harborview/Exterior.jpg';
 import FitnessCenter from '../../images/harborview/Fitness-center.jpg';
 import LeasingOffice from '../../images/harborview/Leasing-office.jpg';
 import LeasingOffice2 from '../../images/harborview/Leasing-office2.jpg';
-import Pool from '../../images/harborview/Pool1.jpg';
+import Pool from '../../images/harborview/Pool.jpg';
 
 export default class Harborview extends Component {
   render() {
