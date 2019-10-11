@@ -8,7 +8,7 @@ export default class NavBar extends Component {
     return (
       <Nav fill>
         <Nav.Item>
-          <Link to="/home"> Home </Link>
+          <Link className="Top-level" to="/home"> Home </Link>
         </Nav.Item>
         <Nav.Item>
           <NavDropdown title="Multi-family" className="Top-level">
@@ -47,13 +47,13 @@ export default class NavBar extends Component {
           </NavDropdown>
         </Nav.Item>
         <Nav.Item>
-          <Link to="/services"> Services </Link>
+          <Link className="Top-level" to="/services"> Services </Link>
         </Nav.Item>
         <Nav.Item>
-          <Link to="/about"> About </Link>
+          <Link className="Top-level" to="/about"> About </Link>
         </Nav.Item>
         <Nav.Item>
-          <Link to="/contact"> Contact </Link>
+          <Link className="Top-level" to="/contact"> Contact </Link>
         </Nav.Item>
       </Nav>
     )

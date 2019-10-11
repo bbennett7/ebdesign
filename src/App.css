@@ -144,11 +144,15 @@ a {
 
 .Nav-button, .Top-level {
   text-align: center;
-  font-size: 90%;
+  font-size: 85%;
   padding: 0 1%;
   margin: auto;
   vertical-align: middle;
   font-family: var(--city-font-family);
+}
+
+.dropdown {
+  font-size: 95%;
 }
 
 .Second-level {
