@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css'
-import DropdownButton from 'react-bootstrap/DropdownButton'
-import Dropdown from 'react-bootstrap/Dropdown'
 import { Link } from 'react-router-dom';
-
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import { Nav, NavDropdown } from 'react-bootstrap';
 
 import NavButton from './NavButton'
 
@@ -29,6 +26,7 @@ export default class NavBar extends Component {
              </NavDropdown>
              <NavDropdown drop="right" variant="secondary" title="By Area" className="Second-level nav-dropdown">
                 <NavDropdown.Item className="Inner-drop" eventKey="2.1"><Link to="/multi-family/barbecue"> Barbecue </Link></NavDropdown.Item>
+                <NavDropdown.Item className="Inner-drop" eventKey="2.5"><Link to="/multi-family/club-room"> Club Room </Link></NavDropdown.Item>
                 <NavDropdown.Item className="Inner-drop" eventKey="2.2"><Link to="/multi-family/exterior"> Exterior </Link></NavDropdown.Item>
                 <NavDropdown.Item className="Inner-drop" eventKey="2.3"><Link to="/multi-family/fitness-center"> Fitness Center </Link></NavDropdown.Item>
                 <NavDropdown.Item className="Inner-drop" eventKey="2.4"><Link to="/multi-family/game-room"> Game Room </Link></NavDropdown.Item>

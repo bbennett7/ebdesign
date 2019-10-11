@@ -24,10 +24,10 @@ import Exterior from './components/Properties/Multifamily-exterior';
 import FitnessCenter from './components/Properties/Multifamily-fitness-center';
 import GameRoom from './components/Properties/Multifamily-game-room';
 import LeasingOffice from './components/Properties/Multifamily-leasing-office';
+import ClubRoom from './components/Properties/Multifamily-clubroom';
 import OutdoorLounge from './components/Properties/Multifamily-outdoor-lounge';
 import Pool from './components/Properties/Multifamily-pool';
 import Contact from './components/Contact';
-import Iframe from './components/Iframe';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -56,6 +56,7 @@ ReactDOM.render(
       <Route exact path="/multi-family/fitness-center" component={FitnessCenter} />
       <Route exact path="/multi-family/game-room" component={GameRoom} />
       <Route exact path="/multi-family/leasing-office" component={LeasingOffice} />
+      <Route exact path="/multi-family/club-room" component={ClubRoom} />
       <Route exact path="/multi-family/outdoor-lounge" component={OutdoorLounge} />
       <Route exact path="/multi-family/pool" component={Pool} />
     </React.Fragment>
