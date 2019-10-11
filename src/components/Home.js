@@ -17,7 +17,8 @@ export default class Home extends Component {
         <Carousel className="Home-carousel">
         <Carousel.Item>
             <img
-              className="Home-carousel-image five"
+              className="Home-carousel-image"
+              id="Home-five"
               src={OutdoorLounge}
               alt=""
             />
@@ -27,7 +28,8 @@ export default class Home extends Component {
 
           <Carousel.Item>
             <img
-              className="Home-carousel-image four"
+              className="Home-carousel-image"
+              id="Home-four"
               src={LeasingOffice}
               alt=""
             />
@@ -37,7 +39,8 @@ export default class Home extends Component {
 
           <Carousel.Item>
             <img
-              className="Home-carousel-image one"
+              className="Home-carousel-image"
+              id="Home-one"
               src={Gym}
               alt=""
             />
@@ -47,7 +50,8 @@ export default class Home extends Component {
 
           <Carousel.Item>
             <img
-              className="Home-carousel-image six"
+              className="Home-carousel-image"
+              id="Home-six"
               src={Pool2}
               alt=""
             />
@@ -57,7 +61,8 @@ export default class Home extends Component {
 
           <Carousel.Item>
             <img
-              className="Home-carousel-image one"
+              className="Home-carousel-image"
+              id="Home-one"
               src={Pool}
               alt=""
             />
@@ -67,7 +72,8 @@ export default class Home extends Component {
 
           <Carousel.Item>
             <img
-              className="Home-carousel-image seven"
+              className="Home-carousel-image"
+              id="Home-seven"
               src={GameRoom}
               alt=""
             />
@@ -77,7 +83,8 @@ export default class Home extends Component {
 
           <Carousel.Item>
             <img
-              className="Home-carousel-image one"
+              className="Home-carousel-image"
+              id="Home-one"
               src={Exterior}
               alt=""
             />

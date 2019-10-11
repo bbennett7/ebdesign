@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import './Desktop.css';
+import './Tablet.css';
 import NavBar from './components/NavBar'
 import EBLogo from './images/EBLogo.jpg';
 

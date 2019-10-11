@@ -1,0 +1,111 @@
+@media (min-width: 1025px) {
+    .App {
+      text-align: center;
+      display: grid;
+      grid-template: 1fr .35fr / 25% 25% 25% 25%;
+    }
+  
+    .nav {
+      margin-bottom: 2%;
+      border-top: 1.25px black solid;
+      border-bottom: 1.25px black solid;
+    }
+  
+    .nav-item {
+      font-size: 100%;
+    }
+  
+    .dropdown-menu {
+      margin: 0 50%;
+    }
+  
+    .EB-logo {
+      grid-area: 1 / 1 / 1 / 2;
+      width: auto;
+      height: 50%;
+      margin: 5% 0 0 10%;
+    }
+  
+    .Header {
+      padding: 1.5% 0;
+      grid-area: 1 / 1 / 2 / 5;
+      z-index: -1;
+      margin: 0 auto;
+    }
+  
+    .Home {
+      background-color: white;
+      grid-template:  1% 89% 10% / 25% 50% 25%;
+    }
+  
+    .Home-carousel {
+      grid-area: 1 / 2 / 4 / 3;
+    }
+  
+    .Home-carousel-image {
+      width: 100%;
+    }
+  
+    .one, .four, .five, .six, .seven {
+      margin-left: 0%;
+    }
+  
+    h4 {
+      font-size: 2em;
+    }
+  
+    .Property-grid {
+      grid-template:  95% 5% / 20% 60% 20%;
+    }
+  
+    .Property {
+      margin-top: 0%;
+      padding-top: 1%;
+      grid-auto-flow: none;
+      grid-area: 1 / 2 / 1 / 3;
+    }
+  
+    .Carousel-image {
+      width: 100%;
+      margin: 0% 0% 3% 0%;
+    }
+  
+    .About, .Residential, .Commercial {
+      grid-template: auto / 10% 40% 40% 10%;
+    }
+  
+    .Contact {
+      padding-top: 0px;
+      grid-template: 15% 50% 45% 20% / 20% 30% 30% 20%;
+    }
+  
+    .Iframe {
+      height: 55%;
+    }
+  
+    .Services-content {
+      display: grid;
+      grid-template: 100% / 50% 50%;
+      text-align: left;
+    }
+  
+    .Services-list {
+      grid-area: 1 / 1 / 1 / 2;
+    }
+  
+    .Client-list {
+      grid-area: 1 / 2 / 1 /3;
+    }
+  
+    #Services-col {
+      padding-left: 50px;
+      column-count: 2;
+      width: 475px;
+      margin: 0 auto;
+    }
+  
+    #Services-col p {
+      text-align: left;
+    }
+  }
+  
