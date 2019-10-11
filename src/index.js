@@ -22,6 +22,7 @@ import Rockwood from './components/Properties/Rockwood';
 import SherwoodCrossing from './components/Properties/SherwoodCrossing';
 import Vicino from './components/Properties/Vicino';
 import Waterleaf from './components/Properties/Waterleaf';
+import Waterscape from './components/Properties/Waterscape';
 import Barbecue from './components/Properties/Multifamily-barbecue';
 import Exterior from './components/Properties/Multifamily-exterior';
 import FitnessCenter from './components/Properties/Multifamily-fitness-center';
@@ -56,6 +57,7 @@ ReactDOM.render(
       <Route exact path="/multi-family/Sherwood-Crossing" component={SherwoodCrossing} />
       <Route exact path="/multi-family/Vicino" component={Vicino} />
       <Route exact path="/multi-family/Waterleaf" component={Waterleaf} />
+      <Route exact path="/multi-family/Waterscape" component={Waterscape} />
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/multi-family/barbecue" component={Barbecue} />
       <Route exact path="/multi-family/exterior" component={Exterior} />

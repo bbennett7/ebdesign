@@ -24,6 +24,7 @@ export default class NavBar extends Component {
               <Link className="Bottom-level" to="/multi-family/Sherwood-Crossing"> Sherwood Crossing </Link>
               <Link className="Bottom-level" to="/multi-family/Vicino"> Vicino </Link>
               <Link className="Bottom-level" to="/multi-family/Waterleaf"> Waterleaf </Link>
+              <Link className="Bottom-level" to="/multi-family/Waterscape"> Waterscape </Link>
              </NavDropdown>
              <NavDropdown drop="right" variant="secondary" title="By Area" className="Second-level">
                 <Link className="Bottom-level" to="/multi-family/barbecue"> Barbecue </Link>
