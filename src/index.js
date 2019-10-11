@@ -17,6 +17,7 @@ import Corsica from './components/Properties/Corsica';
 import Harborview from './components/Properties/Harborview'
 import Lexington from './components/Properties/Lexington';
 import Parc5 from './components/Properties/Parc5';
+import Protrero from './components/Properties/Protrero';
 import Rockwood from './components/Properties/Rockwood';
 import Vicino from './components/Properties/Vicino';
 import Barbecue from './components/Properties/Multifamily-barbecue';
@@ -48,6 +49,7 @@ ReactDOM.render(
       <Route exact path="/multi-family/Harborview" component={Harborview} />
       <Route exact path="/multi-family/The-Lexington" component={Lexington} />
       <Route exact path="/multi-family/Parc-5" component={Parc5} />
+      <Route exact path="/multi-family/Protrero" component={Protrero} />
       <Route exact path="/multi-family/Rockwood" component={Rockwood} />
       <Route exact path="/multi-family/Vicino" component={Vicino} />
       <Route exact path="/contact" component={Contact} />

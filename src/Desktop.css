@@ -46,7 +46,7 @@
       width: 100%;
     }
   
-    .one, .four, .five, .six, .seven {
+    #Home-one,  #Home-four,  #Home-five,  #Home-six,  #Home-seven {
       margin-left: 0%;
     }
   
