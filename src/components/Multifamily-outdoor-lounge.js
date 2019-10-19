@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
-import BayridgeODL from '../../images/bayridge/Common-area.jpg';
-import ChadwickODL from '../../images/chadwick/Fireplace.png';
-import ChadwickODL1 from '../../images/chadwick/Pool-seating.png';
-import P5ODL from '../../images/parc5/Pool-lounge.jpg';
-import RockODL from '../../images/rockwood/Outdoor-lounge.jpg';
-import RockODL2 from '../../images/rockwood/Pool-seating.jpg';
-import VicODL from '../../images/vicino/Firepit.jpg';
-import VicODL2 from '../../images/vicino/Outdoor-TV.jpg';
+import BayridgeODL from '../images/bayridge/Common-area.jpg';
+import ChadwickODL from '../images/chadwick/Fireplace.png';
+import ChadwickODL1 from '../images/chadwick/Pool-seating.png';
+import P5ODL from '../images/parc5/Pool-lounge.jpg';
+import RockODL from '../images/rockwood/Outdoor-lounge.jpg';
+import RockODL2 from '../images/rockwood/Pool-seating.jpg';
+import VicODL from '../images/vicino/Firepit.jpg';
+import VicODL2 from '../images/vicino/Outdoor-TV.jpg';
 
 
 

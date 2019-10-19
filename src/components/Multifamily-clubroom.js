@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
-import BayshoreLeasingOffice1 from '../../images/bayshore/Common-area.jpg';
-import P5LeasingOffice from '../../images/parc5/Leasing-office.jpg';
-import P5LeasingOffice2 from '../../images/parc5/TV-seating.jpg';
-import ProtreroLeasingOffice2 from '../../images/protrero/Leasing-office2.jpg';
+import BayshoreLeasingOffice1 from '../images/bayshore/Common-area.jpg';
+import P5LeasingOffice from '../images/parc5/Leasing-office.jpg';
+import P5LeasingOffice2 from '../images/parc5/TV-seating.jpg';
+import ProtreroLeasingOffice2 from '../images/protrero/Leasing-office2.jpg';
 
 export default class ClubRoom extends Component {
   render() {

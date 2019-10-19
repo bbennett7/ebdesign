@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
-import B1 from '../../images/residential-bathroom/B1.jpg';
-import B2 from '../../images/residential-bathroom/B2.jpg';
-import B3 from '../../images/residential-bathroom/B3.jpg';
-import B4 from '../../images/residential-bathroom/B4.jpg';
+import B1 from '../images/residential-bathroom/B1.jpg';
+import B2 from '../images/residential-bathroom/B2.jpg';
+import B3 from '../images/residential-bathroom/B3.jpg';
+import B4 from '../images/residential-bathroom/B4.jpg';
 
 
 export default class Bathroom extends Component {

@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
-import K1 from '../../images/residential-kitchen/K1.jpg';
-import K2 from '../../images/residential-kitchen/K2.jpg';
-import K3 from '../../images/residential-kitchen/K3.jpg';
-import K4 from '../../images/residential-kitchen/K4.jpg';
-import K5 from '../../images/residential-kitchen/K5.jpg';
+import K1 from '../images/residential-kitchen/K1.jpg';
+import K2 from '../images/residential-kitchen/K2.jpg';
+import K3 from '../images/residential-kitchen/K3.jpg';
+import K4 from '../images/residential-kitchen/K4.jpg';
+import K5 from '../images/residential-kitchen/K5.jpg';
 
 export default class Kitchen extends Component {
   render() {

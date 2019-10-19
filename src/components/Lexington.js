@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
-import BBQs from '../../images/lexington/BBQs.jpg';
-import Entrance from '../../images/lexington/Entrance.jpg';
-import LeasingInterior from '../../images/lexington/Leasing-interior.jpg';
-import LeasingOffice from '../../images/lexington/Leasing-office.jpg';
-import MainExterior from '../../images/lexington/Main-exterior.jpg';
+import BBQs from '../images/lexington/BBQs.jpg';
+import Entrance from '../images/lexington/Entrance.jpg';
+import LeasingInterior from '../images/lexington/Leasing-interior.jpg';
+import LeasingOffice from '../images/lexington/Leasing-office.jpg';
+import MainExterior from '../images/lexington/Main-exterior.jpg';
 
 export default class Lexington extends Component {
   render() {

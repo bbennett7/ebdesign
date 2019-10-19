@@ -2,18 +2,18 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
-import BayridgePool from '../../images/bayridge/Pool-area.jpg';
-import ChadwickPool from '../../images/chadwick/Pool.jpg';
-import CorsicaPool1 from '../../images/corsica/Pool-area.jpg';
-import CorsicaPool2 from '../../images/corsica/Pool.jpg';
-import HarborPool from '../../images/harborview/Pool.jpg';
-import P5Pool1 from '../../images/parc5/Game-board.jpg';
-import P5Pool2 from '../../images/parc5/Pool-area.jpg';
-import P5Pool3 from '../../images/parc5/Pool-tray.jpg';
-import RockPool from '../../images/rockwood/Pool.jpg';
-import VicinoPool1 from '../../images/vicino/Chaise-lounges.jpg';
-import VicinoPool2 from '../../images/vicino/Pool-seating.jpg';
-import VicinoPool3 from '../../images/vicino/Pool.jpg';
+import BayridgePool from '../images/bayridge/Pool-area.jpg';
+import ChadwickPool from '../images/chadwick/Pool.jpg';
+import CorsicaPool1 from '../images/corsica/Pool-area.jpg';
+import CorsicaPool2 from '../images/corsica/Pool.jpg';
+import HarborPool from '../images/harborview/Pool.jpg';
+import P5Pool1 from '../images/parc5/Game-board.jpg';
+import P5Pool2 from '../images/parc5/Pool-area.jpg';
+import P5Pool3 from '../images/parc5/Pool-tray.jpg';
+import RockPool from '../images/rockwood/Pool.jpg';
+import VicinoPool1 from '../images/vicino/Chaise-lounges.jpg';
+import VicinoPool2 from '../images/vicino/Pool-seating.jpg';
+import VicinoPool3 from '../images/vicino/Pool.jpg';
 
 
 export default class Pool extends Component {

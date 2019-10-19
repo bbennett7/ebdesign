@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
-import CountryOaksExterior from '../../images/country-oaks/Exterior.jpg';
-import P5Exterior from '../../images/parc5/Exterior.jpg';
-import HarborExterior from '../../images/harborview/Exterior.jpg';
-import LexEntrance from '../../images/lexington/Entrance.jpg';
-import LexMainExterior from '../../images/lexington/Main-exterior.jpg';
-import VExterior from '../../images/vicino/Leasing-office-exterior.jpg';
+import CountryOaksExterior from '../images/country-oaks/Exterior.jpg';
+import P5Exterior from '../images/parc5/Exterior.jpg';
+import HarborExterior from '../images/harborview/Exterior.jpg';
+import LexEntrance from '../images/lexington/Entrance.jpg';
+import LexMainExterior from '../images/lexington/Main-exterior.jpg';
+import VExterior from '../images/vicino/Leasing-office-exterior.jpg';
 
 export default class Exterior extends Component {
   render() {

@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
-import CGym from '../../images/corsica/Gym.jpg';
-import HarborGym from '../../images/harborview/Fitness-center.jpg';
-import RFitnessCenter from '../../images/rockwood/Fitness-center.jpg';
-import VGym from '../../images/vicino/Gym.jpg';
-import VTreadmills from '../../images/vicino/Treadmills.jpg';
+import CGym from '../images/corsica/Gym.jpg';
+import HarborGym from '../images/harborview/Fitness-center.jpg';
+import RFitnessCenter from '../images/rockwood/Fitness-center.jpg';
+import VGym from '../images/vicino/Gym.jpg';
+import VTreadmills from '../images/vicino/Treadmills.jpg';
 
 export default class FitnessCenter extends Component {
   render() {

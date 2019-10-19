@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
-import GameRoom from '../../images/rockwood/Game-room.jpg';
-import OutdoorLounge from '../../images/rockwood/Outdoor-lounge.jpg';
-import PoolTable from '../../images/rockwood/Pool-table.jpg';
-import FitnessCenter from '../../images/rockwood/Fitness-center.jpg';
-import LeasingOffice from '../../images/rockwood/Leasing-office.jpg';
-import PoolSeating from '../../images/rockwood/Pool-seating.jpg';
-import Pool from '../../images/rockwood/Pool.jpg';
+import GameRoom from '../images/rockwood/Game-room.jpg';
+import OutdoorLounge from '../images/rockwood/Outdoor-lounge.jpg';
+import PoolTable from '../images/rockwood/Pool-table.jpg';
+import FitnessCenter from '../images/rockwood/Fitness-center.jpg';
+import LeasingOffice from '../images/rockwood/Leasing-office.jpg';
+import PoolSeating from '../images/rockwood/Pool-seating.jpg';
+import Pool from '../images/rockwood/Pool.jpg';
 
 export default class Rockwood extends Component {
   render() {

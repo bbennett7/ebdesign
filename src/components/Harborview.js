@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
-import Barbecue from '../../images/harborview/Barbecue.jpg';
-import Exterior from '../../images/harborview/Exterior.jpg';
-import FitnessCenter from '../../images/harborview/Fitness-center.jpg';
-import LeasingOffice from '../../images/harborview/Leasing-office.jpg';
-import LeasingOffice2 from '../../images/harborview/Leasing-office2.jpg';
-import Pool from '../../images/harborview/Pool.jpg';
+import Barbecue from '../images/harborview/Barbecue.jpg';
+import Exterior from '../images/harborview/Exterior.jpg';
+import FitnessCenter from '../images/harborview/Fitness-center.jpg';
+import LeasingOffice from '../images/harborview/Leasing-office.jpg';
+import LeasingOffice2 from '../images/harborview/Leasing-office2.jpg';
+import Pool from '../images/harborview/Pool.jpg';
 
 export default class Harborview extends Component {
   render() {

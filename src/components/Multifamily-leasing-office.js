@@ -2,17 +2,17 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
-import BayshoreLeasingOffice2 from '../../images/bayshore/Desk.jpg';
-import BayshoreLeasingOffice3 from '../../images/bayshore/Chairs.jpg';
-import ChadLeasingOffice from '../../images/chadwick/Leasing-office.jpg';
-import CorsicaLeasingOffice from '../../images/corsica/Leasing-office.jpg';
-import HarborLeasingOffice from '../../images/harborview/Leasing-office.jpg';
-import LexLeasingOffice from '../../images/lexington/Leasing-office.jpg';
-import RockLeasingOffice from '../../images/rockwood/Leasing-office.jpg';
-import ProtreroLeasingOffice1 from '../../images/protrero/Leasing-office.jpg';
-import VicLeasingOffice1 from '../../images/vicino/Center-area.jpg';
-import VicLeasingOffice2 from '../../images/vicino/Lounge-area.jpg';
-import VicLeasingOffice3 from '../../images/vicino/Table.jpg';
+import BayshoreLeasingOffice2 from '../images/bayshore/Desk.jpg';
+import BayshoreLeasingOffice3 from '../images/bayshore/Chairs.jpg';
+import ChadLeasingOffice from '../images/chadwick/Leasing-office.jpg';
+import CorsicaLeasingOffice from '../images/corsica/Leasing-office.jpg';
+import HarborLeasingOffice from '../images/harborview/Leasing-office.jpg';
+import LexLeasingOffice from '../images/lexington/Leasing-office.jpg';
+import RockLeasingOffice from '../images/rockwood/Leasing-office.jpg';
+import ProtreroLeasingOffice1 from '../images/protrero/Leasing-office.jpg';
+import VicLeasingOffice1 from '../images/vicino/Center-area.jpg';
+import VicLeasingOffice2 from '../images/vicino/Lounge-area.jpg';
+import VicLeasingOffice3 from '../images/vicino/Table.jpg';
 
 export default class LeasingOffice extends Component {
   render() {

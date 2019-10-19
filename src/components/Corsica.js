@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
-import Gym from '../../images/corsica/Gym.jpg';
-import LeasingOffice from '../../images/corsica/Leasing-office.jpg';
-import PoolArea from '../../images/corsica/Pool-area.jpg';
-import Pool from '../../images/corsica/Pool.jpg';
+import Gym from '../images/corsica/Gym.jpg';
+import LeasingOffice from '../images/corsica/Leasing-office.jpg';
+import PoolArea from '../images/corsica/Pool-area.jpg';
+import Pool from '../images/corsica/Pool.jpg';
 
 export default class Corsica extends Component {
   render() {

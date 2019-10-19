@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
-import LR1 from '../../images/residential-living-room/LR1.jpg';
-import LR2 from '../../images/residential-living-room/LR2.jpg';
-import LR3 from '../../images/residential-living-room/LR3.jpg';
-import LR4 from '../../images/residential-living-room/LR4.jpg';
+import LR1 from '../images/residential-living-room/LR1.jpg';
+import LR2 from '../images/residential-living-room/LR2.jpg';
+import LR3 from '../images/residential-living-room/LR3.jpg';
+import LR4 from '../images/residential-living-room/LR4.jpg';
 
 export default class LivingRoom extends Component {
   render() {

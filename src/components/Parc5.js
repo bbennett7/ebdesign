@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
-import Exterior from '../../images/parc5/Exterior.jpg';
-import GameBoard from '../../images/parc5/Game-board.jpg';
-import GrillArea from '../../images/parc5/Grill-area.jpg';
-import LeasingOffice from '../../images/parc5/Leasing-office.jpg';
-import PoolArea from '../../images/parc5/Pool-area.jpg';
-import PoolLounge from '../../images/parc5/Pool-lounge.jpg';
-import TVSeating from '../../images/parc5/TV-seating.jpg';
+import Exterior from '../images/parc5/Exterior.jpg';
+import GameBoard from '../images/parc5/Game-board.jpg';
+import GrillArea from '../images/parc5/Grill-area.jpg';
+import LeasingOffice from '../images/parc5/Leasing-office.jpg';
+import PoolArea from '../images/parc5/Pool-area.jpg';
+import PoolLounge from '../images/parc5/Pool-lounge.jpg';
+import TVSeating from '../images/parc5/TV-seating.jpg';
 
 
 export default class Parc5 extends Component {

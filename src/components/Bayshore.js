@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
-import Bench from '../../images/bayshore/Bench.jpg';
-import Chairs from '../../images/bayshore/Chairs.jpg';
-import CommonArea from '../../images/bayshore/Common-area.jpg';
-import Desk from '../../images/bayshore/Desk.jpg';
-import Kitchen from '../../images/bayshore/Kitchen.jpg';
+import Bench from '../images/bayshore/Bench.jpg';
+import Chairs from '../images/bayshore/Chairs.jpg';
+import CommonArea from '../images/bayshore/Common-area.jpg';
+import Desk from '../images/bayshore/Desk.jpg';
+import Kitchen from '../images/bayshore/Kitchen.jpg';
 
 export default class Bayshore extends Component {
   render() {
