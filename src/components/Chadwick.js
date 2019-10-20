@@ -10,10 +10,6 @@ import Carousel from 'react-bootstrap/Carousel';
 // import PoolSeating from '../images/chadwick/Pool-seating.png';
 
 
-
-
-
-
 export default class Chadwick extends Component {
   render() {
     return(
@@ -22,73 +18,31 @@ export default class Chadwick extends Component {
           <h4>The Chadwick</h4>
           <Carousel className="Carousel">
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={PoolSeating}
-                alt=""
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
+              <img className="Carousel-image" src="https://i.ibb.co/Ph9NbVQ/Pool-seating.png" alt="Pool-seating" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={Fireplace}
-                alt=""
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
+              <img className="Carousel-image" src="https://i.ibb.co/3W7brXn/Fireplace.png" alt="Fireplace" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={Seating}
-                alt=""
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
+              <img className="Carousel-image" src="https://i.ibb.co/tP5zDpY/Seating.jpg" alt="Seating" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={BBQs}
-                alt=""
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
+              <img className="Carousel-image" src="https://i.ibb.co/8rVKz1J/BBQs.jpg" alt="BBQs" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={Pool}
-                alt=""
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
+              <img className="Carousel-image" src="https://i.ibb.co/x7f1251/Pool.jpg" alt="Pool" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={LeasingOffice}
-                alt=""
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
+              <img className="Carousel-image" src="https://i.ibb.co/DkHdvYr/Leasing-office.jpg" alt="Leasing-office" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={GameRoom}
-                alt=""
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
+              <img className="Carousel-image" src="https://i.ibb.co/tDqNPXH/Game-room.jpg" alt="Game-room" border="0" />
             </Carousel.Item>
           </Carousel>
         </div>

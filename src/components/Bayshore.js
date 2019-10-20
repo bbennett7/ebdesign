@@ -16,32 +16,22 @@ export default class Bayshore extends Component {
           <Carousel className="Carousel">
             <Carousel.Item>
               <img className="Carousel-image" src="https://i.ibb.co/z6cWprb/Common-area.jpg" alt="Common-area" border="0" />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
               <img className="Carousel-image" src="https://i.ibb.co/DDG8J2W/Kitchen.jpg" alt="Kitchen" border="0" />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
               <img className="Carousel-image" src="https://i.ibb.co/VjrsYr5/Chairs.jpg" alt="Chairs" border="0" />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
               <img className="Carousel-image" src="https://i.ibb.co/86cqTMC/Bench.jpg" alt="Bench" border="0" />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
               <img className="Carousel-image" src="https://i.ibb.co/vZ89nmf/Desk.jpg" alt="Desk" border="0" />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </div>
