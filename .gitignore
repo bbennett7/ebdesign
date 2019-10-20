@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+./images/bayshore
+./images/chadwick
+./images/corsica
+./images/harborview
+./images/parc5
+
