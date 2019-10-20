@@ -22,8 +22,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-./images/bayshore
-./images/chadwick
+./src/images/bayshore
+./src/images/chadwick
 ./images/corsica
 ./images/harborview
 ./images/parc5
