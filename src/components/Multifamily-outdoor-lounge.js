@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
 import BayridgeODL from '../images/bayridge/Common-area.jpg';
 import ChadwickODL from '../images/chadwick/Fireplace.png';

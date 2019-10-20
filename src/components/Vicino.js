@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
 import CenterArea from '../images/vicino/Center-area.jpg';
 import ChaiseLounges from '../images/vicino/Chaise-lounges.jpg';

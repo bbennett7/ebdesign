@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
 import ChadwickGR from '../images/chadwick/Game-room.jpg';
 import RockwoodGR1 from '../images/rockwood/Pool-table.jpg';

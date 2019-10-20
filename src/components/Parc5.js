@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
 import Exterior from '../images/parc5/Exterior.jpg';
 import GameBoard from '../images/parc5/Game-board.jpg';
