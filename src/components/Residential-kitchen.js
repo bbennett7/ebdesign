@@ -20,8 +20,6 @@ export default class Kitchen extends Component {
                 src={K2}
                 alt="Second Kitchen"
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -30,8 +28,6 @@ export default class Kitchen extends Component {
                 src={K3}
                 alt="Third Kitchen"
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -40,8 +36,6 @@ export default class Kitchen extends Component {
                 src={K1}
                 alt="First Kitchen"
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -50,8 +44,6 @@ export default class Kitchen extends Component {
                 src={K4}
                 alt="Fourth Kitchen"
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -60,8 +52,6 @@ export default class Kitchen extends Component {
                 src={K5}
                 alt="Fifth Kitchen"
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </div>

@@ -19,8 +19,6 @@ export default class FitnessCenter extends Component {
                 src={VGym}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -29,14 +27,10 @@ export default class FitnessCenter extends Component {
                 src={VTreadmills}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
               <img className="Carousel-image" src="https://i.ibb.co/d61wC7v/Fitness-center.jpg" alt="Fitness-center" border="0" />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -45,8 +39,6 @@ export default class FitnessCenter extends Component {
                 src={CGym}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -55,8 +47,6 @@ export default class FitnessCenter extends Component {
                 src={RFitnessCenter}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
           </Carousel>

@@ -22,8 +22,6 @@ export default class Rockwood extends Component {
                 src={LeasingOffice}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -32,8 +30,6 @@ export default class Rockwood extends Component {
                 src={PoolSeating}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -42,8 +38,6 @@ export default class Rockwood extends Component {
                 src={GameRoom}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -52,8 +46,6 @@ export default class Rockwood extends Component {
                 src={PoolTable}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -62,8 +54,6 @@ export default class Rockwood extends Component {
                 src={OutdoorLounge}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -72,8 +62,6 @@ export default class Rockwood extends Component {
                 src={FitnessCenter}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -82,8 +70,6 @@ export default class Rockwood extends Component {
                 src={Pool}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </div>

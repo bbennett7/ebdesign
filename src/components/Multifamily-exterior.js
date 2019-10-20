@@ -15,14 +15,10 @@ export default class Exterior extends Component {
           <Carousel className="Carousel">
             <Carousel.Item>
               <img className="Carousel-image" src="https://i.ibb.co/wY7zhMN/Exterior.jpg" alt="Exterior" border="0" />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
               <img className="Carousel-image" src="https://i.ibb.co/PN92nmv/Exterior.jpg" alt="Exterior" border="0" />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -31,8 +27,6 @@ export default class Exterior extends Component {
                 src={VExterior}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -41,8 +35,6 @@ export default class Exterior extends Component {
                 src={CountryOaksExterior}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -51,8 +43,6 @@ export default class Exterior extends Component {
                 src={LexEntrance}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -61,8 +51,6 @@ export default class Exterior extends Component {
                 src={LexMainExterior}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </div>

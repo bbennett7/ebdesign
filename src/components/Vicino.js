@@ -27,8 +27,6 @@ export default class Vicino extends Component {
                   src={LeasingExterior}
                   alt=""
                 />
-                <Carousel.Caption>
-                </Carousel.Caption>
               </Carousel.Item>
 
               <Carousel.Item>
@@ -37,8 +35,6 @@ export default class Vicino extends Component {
                   src={LeasingInterior}
                   alt=""
                 />
-                <Carousel.Caption>
-                </Carousel.Caption>
               </Carousel.Item>
 
               <Carousel.Item>
@@ -47,8 +43,6 @@ export default class Vicino extends Component {
                   src={CenterArea}
                   alt=""
                 />
-                <Carousel.Caption>
-                </Carousel.Caption>
               </Carousel.Item>
 
               <Carousel.Item>
@@ -57,8 +51,6 @@ export default class Vicino extends Component {
                   src={LoungeArea}
                   alt=""
                 />
-                <Carousel.Caption>
-                </Carousel.Caption>
               </Carousel.Item>
 
               <Carousel.Item>
@@ -67,8 +59,6 @@ export default class Vicino extends Component {
                   src={IndoorTable}
                   alt=""
                 />
-                <Carousel.Caption>
-                </Carousel.Caption>
               </Carousel.Item>
 
               <Carousel.Item>
@@ -77,8 +67,6 @@ export default class Vicino extends Component {
                   src={Gym}
                   alt=""
                 />
-                <Carousel.Caption>
-                </Carousel.Caption>
               </Carousel.Item>
 
               <Carousel.Item>
@@ -87,8 +75,6 @@ export default class Vicino extends Component {
                   src={Treadmills}
                   alt=""
                 />
-                <Carousel.Caption>
-                </Carousel.Caption>
               </Carousel.Item>
 
               <Carousel.Item>
@@ -97,8 +83,6 @@ export default class Vicino extends Component {
                   src={Firepit}
                   alt=""
                 />
-                <Carousel.Caption>
-                </Carousel.Caption>
               </Carousel.Item>
 
               <Carousel.Item>
@@ -107,8 +91,6 @@ export default class Vicino extends Component {
                   src={OutdoorTV}
                   alt=""
                 />
-                <Carousel.Caption>
-                </Carousel.Caption>
               </Carousel.Item>
 
               <Carousel.Item>
@@ -117,8 +99,6 @@ export default class Vicino extends Component {
                   src={Pool}
                   alt=""
                 />
-                <Carousel.Caption>
-                </Carousel.Caption>
               </Carousel.Item>
 
               <Carousel.Item>
@@ -127,8 +107,6 @@ export default class Vicino extends Component {
                   src={PoolSeating}
                   alt=""
                 />
-                <Carousel.Caption>
-                </Carousel.Caption>
               </Carousel.Item>
 
               <Carousel.Item>
@@ -137,8 +115,6 @@ export default class Vicino extends Component {
                   src={ChaiseLounges}
                   alt=""
                 />
-                <Carousel.Caption>
-                </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
         </div>

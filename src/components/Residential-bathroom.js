@@ -20,8 +20,6 @@ export default class Bathroom extends Component {
                 src={B1}
                 alt="First bathroom"
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -30,8 +28,6 @@ export default class Bathroom extends Component {
                 src={B2}
                 alt="Second Bathroom"
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -40,8 +36,6 @@ export default class Bathroom extends Component {
                 src={B3}
                 alt="Third Bathroom"
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -50,8 +44,6 @@ export default class Bathroom extends Component {
                 src={B4}
                 alt="Fourth Bathroom"
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </div>

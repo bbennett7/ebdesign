@@ -20,8 +20,6 @@ export default class Backyard extends Component {
                 src={BY1}
                 alt="First backyard"
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -30,8 +28,6 @@ export default class Backyard extends Component {
                 src={BY4}
                 alt="Fourth backyard"
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -40,8 +36,6 @@ export default class Backyard extends Component {
                 src={BY5}
                 alt="First backyard"
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -50,8 +44,6 @@ export default class Backyard extends Component {
                 src={BY2}
                 alt="Second backyard"
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -60,8 +52,6 @@ export default class Backyard extends Component {
                 src={BY3}
                 alt="First backyard"
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </div>

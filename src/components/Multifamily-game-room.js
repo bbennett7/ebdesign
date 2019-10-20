@@ -18,8 +18,6 @@ export default class GameRoom extends Component {
                 src={RockwoodGR1}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -28,8 +26,6 @@ export default class GameRoom extends Component {
                 src={RockwoodGR2}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>

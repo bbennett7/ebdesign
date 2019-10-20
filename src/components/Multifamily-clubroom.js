@@ -16,20 +16,14 @@ export default class ClubRoom extends Component {
                 src={ProtreroLeasingOffice2}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
               <img className="Carousel-image" src="https://i.ibb.co/ZGvYQnj/Leasing-office.jpg" alt="Leasing-office" border="0" />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
               <img className="Carousel-image" src="https://i.ibb.co/dsZ2HQr/TV-seating.jpg" alt="TV-seating" border="0" />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>

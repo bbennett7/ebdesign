@@ -19,8 +19,6 @@ export default class LivingRoom extends Component {
                 src={LR1}
                 alt="First living room"
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -29,8 +27,6 @@ export default class LivingRoom extends Component {
                 src={LR2}
                 alt="Second living room"
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -39,8 +35,6 @@ export default class LivingRoom extends Component {
                 src={LR3}
                 alt="Third living room"
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -49,8 +43,6 @@ export default class LivingRoom extends Component {
                 src={LR4}
                 alt="Fourth living room"
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </div>

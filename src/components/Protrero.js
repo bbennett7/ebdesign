@@ -17,8 +17,6 @@ export default class Protrero extends Component {
                 src={LeasingOffice}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </div>

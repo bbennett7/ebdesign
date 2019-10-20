@@ -19,8 +19,6 @@ export default class Corsica extends Component {
                 src={LeasingOffice}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -29,8 +27,6 @@ export default class Corsica extends Component {
                 src={PoolArea}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -39,8 +35,6 @@ export default class Corsica extends Component {
                 src={Pool}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -49,8 +43,6 @@ export default class Corsica extends Component {
                 src={Gym}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </div>

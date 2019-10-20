@@ -20,8 +20,6 @@ export default class Lexington extends Component {
                 src={Entrance}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -30,8 +28,6 @@ export default class Lexington extends Component {
                 src={LeasingInterior}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -40,8 +36,6 @@ export default class Lexington extends Component {
                 src={LeasingOffice}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -50,8 +44,6 @@ export default class Lexington extends Component {
                 src={BBQs}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -60,8 +52,6 @@ export default class Lexington extends Component {
                 src={MainExterior}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </div>
