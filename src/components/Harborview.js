@@ -1,12 +1,7 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
-import Barbecue from '../images/harborview/Barbecue.jpg';
-import Exterior from '../images/harborview/Exterior.jpg';
-import FitnessCenter from '../images/harborview/Fitness-center.jpg';
-import LeasingOffice from '../images/harborview/Leasing-office.jpg';
-import LeasingOffice2 from '../images/harborview/Leasing-office2.jpg';
-import Pool from '../images/harborview/Pool.jpg';
+
 
 export default class Harborview extends Component {
   render() {
@@ -21,8 +16,6 @@ export default class Harborview extends Component {
                 src={Exterior}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -31,8 +24,6 @@ export default class Harborview extends Component {
                 src={LeasingOffice}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -41,8 +32,6 @@ export default class Harborview extends Component {
                 src={LeasingOffice2}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -51,8 +40,6 @@ export default class Harborview extends Component {
                 src={FitnessCenter}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -61,8 +48,6 @@ export default class Harborview extends Component {
                 src={Pool}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -71,8 +56,6 @@ export default class Harborview extends Component {
                 src={Barbecue}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </div>
