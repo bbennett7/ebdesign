@@ -1,19 +1,6 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
-import CenterArea from '../images/vicino/Center-area.jpg';
-import ChaiseLounges from '../images/vicino/Chaise-lounges.jpg';
-import Firepit from '../images/vicino/Firepit.jpg';
-import Gym from '../images/vicino/Gym.jpg';
-import LeasingExterior from '../images/vicino/Leasing-office-exterior.jpg';
-import LeasingInterior from '../images/vicino/Leasing-office-interior.jpg';
-import LoungeArea from '../images/vicino/Lounge-area.jpg';
-import OutdoorTV from '../images/vicino/Outdoor-TV.jpg';
-import PoolSeating from '../images/vicino/Pool-seating.jpg';
-import Pool from '../images/vicino/Pool.jpg';
-import IndoorTable from '../images/vicino/Table.jpg';
-import Treadmills from '../images/vicino/Treadmills.jpg';
-
 export default class Vicino extends Component {
   render() {
     return(
@@ -22,99 +9,51 @@ export default class Vicino extends Component {
           <h4>Vicino</h4>
             <Carousel className="Carousel">
               <Carousel.Item>
-                <img
-                  className="Carousel-image"
-                  src={LeasingExterior}
-                  alt=""
-                />
+                <img className="Carousel-image" src="https://i.ibb.co/HH27HSS/Leasing-office-exterior.jpg" alt="Leasing-office-exterior" border="0" />
               </Carousel.Item>
 
               <Carousel.Item>
-                <img
-                  className="Carousel-image"
-                  src={LeasingInterior}
-                  alt=""
-                />
+                <img className="Carousel-image" src="https://i.ibb.co/qgCgqtP/Leasing-office-interior.jpg" alt="Leasing-office-interior" border="0" />
               </Carousel.Item>
 
               <Carousel.Item>
-                <img
-                  className="Carousel-image"
-                  src={CenterArea}
-                  alt=""
-                />
+                <img className="Carousel-image" src="https://i.ibb.co/m95ngMg/Center-area.jpg" alt="Center-area" border="0" />
               </Carousel.Item>
 
               <Carousel.Item>
-                <img
-                  className="Carousel-image"
-                  src={LoungeArea}
-                  alt=""
-                />
+                <img className="Carousel-image" src="https://i.ibb.co/bF9CzZc/Lounge-area.jpg" alt="Lounge-area" border="0" />
               </Carousel.Item>
 
               <Carousel.Item>
-                <img
-                  className="Carousel-image"
-                  src={IndoorTable}
-                  alt=""
-                />
+                <img className="Carousel-image" src="https://i.ibb.co/sPvr2Xc/Table.jpg" alt="Table" border="0" />
               </Carousel.Item>
 
               <Carousel.Item>
-                <img
-                  className="Carousel-image"
-                  src={Gym}
-                  alt=""
-                />
+                <img className="Carousel-image" src="https://i.ibb.co/n1jKfhB/Gym.jpg" alt="Gym" border="0" />
               </Carousel.Item>
 
               <Carousel.Item>
-                <img
-                  className="Carousel-image"
-                  src={Treadmills}
-                  alt=""
-                />
+                <img className="Carousel-image" src="https://i.ibb.co/Fh1dBkN/Treadmills.jpg" alt="Treadmills" border="0" />
               </Carousel.Item>
 
               <Carousel.Item>
-                <img
-                  className="Carousel-image"
-                  src={Firepit}
-                  alt=""
-                />
+                <img className="Carousel-image" src="https://i.ibb.co/PNNf6xk/Firepit.jpg" alt="Firepit" border="0" />
               </Carousel.Item>
 
               <Carousel.Item>
-                <img
-                  className="Carousel-image"
-                  src={OutdoorTV}
-                  alt=""
-                />
+                <img className="Carousel-image" src="https://i.ibb.co/8694bYk/Outdoor-TV.jpg" alt="Outdoor-TV" border="0" />
               </Carousel.Item>
 
               <Carousel.Item>
-                <img
-                  className="Carousel-image"
-                  src={Pool}
-                  alt=""
-                />
+                <img className="Carousel-image" src="https://i.ibb.co/3SgbvXd/Pool.jpg" alt="Pool" border="0" />
               </Carousel.Item>
 
               <Carousel.Item>
-                <img
-                  className="Carousel-image"
-                  src={PoolSeating}
-                  alt=""
-                />
+                <img className="Carousel-image" src="https://i.ibb.co/HzvKZhn/Pool-seating.jpg" alt="Pool-seating" border="0" />
               </Carousel.Item>
 
               <Carousel.Item>
-                <img
-                  className="Carousel-image"
-                  src={ChaiseLounges}
-                  alt=""
-                />
+                <img className="Carousel-image" src="https://i.ibb.co/6FkP9bH/Chaise-lounges.jpg" alt="Chaise-lounges" border="0" />
               </Carousel.Item>
             </Carousel>
         </div>

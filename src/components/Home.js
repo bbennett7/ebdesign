@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
-import Gym from '../images/vicino/Gym.jpg';
 import GameRoom from '../images/rockwood/Pool-table.jpg';
-import LeasingOffice from '../images/vicino/Center-area.jpg';
-import Pool2 from '../images/vicino/Chaise-lounges.jpg';
 
 export default class Home extends Component {
   render() {
@@ -16,30 +13,15 @@ export default class Home extends Component {
           </Carousel.Item>
 
           <Carousel.Item>
-            <img
-              className="Home-carousel-image"
-              id="Home-four"
-              src={LeasingOffice}
-              alt=""
-            />
+            <img className="Carousel-image" src="https://i.ibb.co/m95ngMg/Center-area.jpg" alt="Center-area" border="0" />
           </Carousel.Item>
 
           <Carousel.Item>
-            <img
-              className="Home-carousel-image"
-              id="Home-one"
-              src={Gym}
-              alt=""
-            />
+            <img className="Carousel-image" src="https://i.ibb.co/n1jKfhB/Gym.jpg" alt="Gym" border="0" />
           </Carousel.Item>
 
           <Carousel.Item>
-            <img
-              className="Home-carousel-image"
-              id="Home-six"
-              src={Pool2}
-              alt=""
-            />
+            <img className="Carousel-image" src="https://i.ibb.co/6FkP9bH/Chaise-lounges.jpg" alt="Chaise-lounges" border="0" />
           </Carousel.Item>
 
           <Carousel.Item>

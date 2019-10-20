@@ -5,9 +5,6 @@ import BayridgePool from '../images/bayridge/Pool-area.jpg';
 import CorsicaPool1 from '../images/corsica/Pool-area.jpg';
 import CorsicaPool2 from '../images/corsica/Pool.jpg';
 import RockPool from '../images/rockwood/Pool.jpg';
-import VicinoPool1 from '../images/vicino/Chaise-lounges.jpg';
-import VicinoPool2 from '../images/vicino/Pool-seating.jpg';
-import VicinoPool3 from '../images/vicino/Pool.jpg';
 
 
 export default class Pool extends Component {
@@ -18,27 +15,15 @@ export default class Pool extends Component {
           <h4>Pool</h4>
           <Carousel className="Carousel">
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={VicinoPool1}
-                alt=""
-              />
+              <img className="Carousel-image" src="https://i.ibb.co/6FkP9bH/Chaise-lounges.jpg" alt="Chaise-lounges" border="0 " />
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={VicinoPool2}
-                alt=""
-              />
+              <img className="Carousel-image" src="https://i.ibb.co/HzvKZhn/Pool-seating.jpg" alt="Pool-seating" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={VicinoPool3}
-                alt=""
-              />
+              <img className="Carousel-image" src="https://i.ibb.co/3SgbvXd/Pool.jpg" alt="Pool" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>

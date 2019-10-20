@@ -4,10 +4,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import BayridgeODL from '../images/bayridge/Common-area.jpg';
 import RockODL from '../images/rockwood/Outdoor-lounge.jpg';
 import RockODL2 from '../images/rockwood/Pool-seating.jpg';
-import VicODL from '../images/vicino/Firepit.jpg';
-import VicODL2 from '../images/vicino/Outdoor-TV.jpg';
-
-
 
 export default class OutdoorLounge extends Component {
   render() {
@@ -25,19 +21,11 @@ export default class OutdoorLounge extends Component {
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={VicODL}
-                alt=""
-              />
+              <img className="Carousel-image" src="https://i.ibb.co/PNNf6xk/Firepit.jpg" alt="Firepit" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={VicODL2}
-                alt=""
-              />
+              <img className="Carousel-image" src="https://i.ibb.co/8694bYk/Outdoor-TV.jpg" alt="Outdoor-TV" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>

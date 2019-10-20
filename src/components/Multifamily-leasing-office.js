@@ -5,9 +5,6 @@ import CorsicaLeasingOffice from '../images/corsica/Leasing-office.jpg';
 import LexLeasingOffice from '../images/lexington/Leasing-office.jpg';
 import RockLeasingOffice from '../images/rockwood/Leasing-office.jpg';
 import ProtreroLeasingOffice1 from '../images/protrero/Leasing-office.jpg';
-import VicLeasingOffice1 from '../images/vicino/Center-area.jpg';
-import VicLeasingOffice2 from '../images/vicino/Lounge-area.jpg';
-import VicLeasingOffice3 from '../images/vicino/Table.jpg';
 
 export default class LeasingOffice extends Component {
   render() {
@@ -18,27 +15,15 @@ export default class LeasingOffice extends Component {
           <Carousel className="Carousel">
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={VicLeasingOffice1}
-                alt=""
-              />
+              <img className="Carousel-image" src="https://i.ibb.co/m95ngMg/Center-area.jpg" alt="Center-area" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={VicLeasingOffice2}
-                alt=""
-              />
+              <img className="Carousel-image" src="https://i.ibb.co/bF9CzZc/Lounge-area.jpg" alt="Lounge-area" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={VicLeasingOffice3}
-                alt=""
-              />
+              <img className="Carousel-image" src="https://i.ibb.co/sPvr2Xc/Table.jpg" alt="Table" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
