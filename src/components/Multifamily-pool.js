@@ -2,13 +2,8 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
 import BayridgePool from '../images/bayridge/Pool-area.jpg';
-import ChadwickPool from '../images/chadwick/Pool.jpg';
 import CorsicaPool1 from '../images/corsica/Pool-area.jpg';
 import CorsicaPool2 from '../images/corsica/Pool.jpg';
-import HarborPool from '../images/harborview/Pool.jpg';
-import P5Pool1 from '../images/parc5/Game-board.jpg';
-import P5Pool2 from '../images/parc5/Pool-area.jpg';
-import P5Pool3 from '../images/parc5/Pool-tray.jpg';
 import RockPool from '../images/rockwood/Pool.jpg';
 import VicinoPool1 from '../images/vicino/Chaise-lounges.jpg';
 import VicinoPool2 from '../images/vicino/Pool-seating.jpg';
@@ -28,8 +23,6 @@ export default class Pool extends Component {
                 src={VicinoPool1}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -38,8 +31,6 @@ export default class Pool extends Component {
                 src={VicinoPool2}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -48,18 +39,10 @@ export default class Pool extends Component {
                 src={VicinoPool3}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={HarborPool}
-                alt=""
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
+              <img className="Carousel-image" src="https://i.ibb.co/VmMT0fZ/Pool.jpg" alt="Pool" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
@@ -68,48 +51,18 @@ export default class Pool extends Component {
                 src={BayridgePool}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={P5Pool1}
-                alt=""
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
+              <img className="Carousel-image" src="https://i.ibb.co/dmqDRYY/Game-board.jpg" alt="Game-board" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={P5Pool2}
-                alt=""
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
+              <img className="Carousel-image" src="https://i.ibb.co/5v7drKF/Pool-area.jpg" alt="Pool-area" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={P5Pool3}
-                alt=""
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={ChadwickPool}
-                alt=""
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
+              <img className="Carousel-image" src="https://i.ibb.co/x7f1251/Pool.jpg" alt="Pool" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
@@ -118,8 +71,6 @@ export default class Pool extends Component {
                 src={CorsicaPool1}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -128,8 +79,6 @@ export default class Pool extends Component {
                 src={CorsicaPool2}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -138,8 +87,6 @@ export default class Pool extends Component {
                 src={RockPool}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </div>

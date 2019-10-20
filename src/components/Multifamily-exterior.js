@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
 import CountryOaksExterior from '../images/country-oaks/Exterior.jpg';
-import P5Exterior from '../images/parc5/Exterior.jpg';
-import HarborExterior from '../images/harborview/Exterior.jpg';
 import LexEntrance from '../images/lexington/Entrance.jpg';
 import LexMainExterior from '../images/lexington/Main-exterior.jpg';
 import VExterior from '../images/vicino/Leasing-office-exterior.jpg';
@@ -16,21 +14,13 @@ export default class Exterior extends Component {
           <h4>Exterior</h4>
           <Carousel className="Carousel">
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={P5Exterior}
-                alt=""
-              />
+              <img className="Carousel-image" src="https://i.ibb.co/wY7zhMN/Exterior.jpg" alt="Exterior" border="0" />
               <Carousel.Caption>
               </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={HarborExterior}
-                alt=""
-              />
+              <img className="Carousel-image" src="https://i.ibb.co/PN92nmv/Exterior.jpg" alt="Exterior" border="0" />
               <Carousel.Caption>
               </Carousel.Caption>
             </Carousel.Item>

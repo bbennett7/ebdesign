@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
-import ChadwickGR from '../images/chadwick/Game-room.jpg';
 import RockwoodGR1 from '../images/rockwood/Pool-table.jpg';
 import RockwoodGR2 from '../images/rockwood/Game-room.jpg';
 
@@ -34,13 +33,7 @@ export default class GameRoom extends Component {
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={ChadwickGR}
-                alt=""
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
+              <img className="Carousel-image" src="https://i.ibb.co/tDqNPXH/Game-room.jpg" alt="Game-room" border="0" />
             </Carousel.Item>
           </Carousel>
         </div>

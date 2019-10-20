@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
-import Pool from '../images/chadwick/Pool.jpg';
 import Gym from '../images/vicino/Gym.jpg';
-import Exterior from '../images/harborview/Exterior.jpg';
 import GameRoom from '../images/rockwood/Pool-table.jpg';
 import LeasingOffice from '../images/vicino/Center-area.jpg';
-import OutdoorLounge from '../images/chadwick/Fireplace.png';
 import Pool2 from '../images/vicino/Chaise-lounges.jpg';
 
 export default class Home extends Component {
@@ -15,14 +12,7 @@ export default class Home extends Component {
       <div className="Home">
         <Carousel className="Home-carousel">
         <Carousel.Item>
-            <img
-              className="Home-carousel-image"
-              id="Home-five"
-              src={OutdoorLounge}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
+            <img className="Carousel-image" id="Home-five" src="https://i.ibb.co/3W7brXn/Fireplace.png" alt="Fireplace" border="0" />
           </Carousel.Item>
 
           <Carousel.Item>
@@ -32,8 +22,6 @@ export default class Home extends Component {
               src={LeasingOffice}
               alt=""
             />
-            <Carousel.Caption>
-            </Carousel.Caption>
           </Carousel.Item>
 
           <Carousel.Item>
@@ -43,8 +31,6 @@ export default class Home extends Component {
               src={Gym}
               alt=""
             />
-            <Carousel.Caption>
-            </Carousel.Caption>
           </Carousel.Item>
 
           <Carousel.Item>
@@ -54,19 +40,10 @@ export default class Home extends Component {
               src={Pool2}
               alt=""
             />
-            <Carousel.Caption>
-            </Carousel.Caption>
           </Carousel.Item>
 
           <Carousel.Item>
-            <img
-              className="Home-carousel-image"
-              id="Home-one"
-              src={Pool}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
+            <img className="Carousel-image" id="Home-one" src="https://i.ibb.co/x7f1251/Pool.jpg" alt="Pool" border="0" />
           </Carousel.Item>
 
           <Carousel.Item>
@@ -76,19 +53,10 @@ export default class Home extends Component {
               src={GameRoom}
               alt=""
             />
-            <Carousel.Caption>
-            </Carousel.Caption>
           </Carousel.Item>
 
           <Carousel.Item>
-            <img
-              className="Home-carousel-image"
-              id="Home-one"
-              src={Exterior}
-              alt=""
-            />
-            <Carousel.Caption>
-            </Carousel.Caption>
+            <img className="Carousel-image" src="https://i.ibb.co/PN92nmv/Exterior.jpg" alt="Exterior" border="0" />
           </Carousel.Item>
         </Carousel>
       </div>

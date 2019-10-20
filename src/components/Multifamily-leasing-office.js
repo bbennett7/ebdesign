@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
-import BayshoreLeasingOffice2 from '../images/bayshore/Desk.jpg';
-import BayshoreLeasingOffice3 from '../images/bayshore/Chairs.jpg';
-import ChadLeasingOffice from '../images/chadwick/Leasing-office.jpg';
 import CorsicaLeasingOffice from '../images/corsica/Leasing-office.jpg';
-import HarborLeasingOffice from '../images/harborview/Leasing-office.jpg';
 import LexLeasingOffice from '../images/lexington/Leasing-office.jpg';
 import RockLeasingOffice from '../images/rockwood/Leasing-office.jpg';
 import ProtreroLeasingOffice1 from '../images/protrero/Leasing-office.jpg';
@@ -27,8 +23,6 @@ export default class LeasingOffice extends Component {
                 src={VicLeasingOffice1}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -37,8 +31,6 @@ export default class LeasingOffice extends Component {
                 src={VicLeasingOffice2}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -47,8 +39,6 @@ export default class LeasingOffice extends Component {
                 src={VicLeasingOffice3}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -57,8 +47,6 @@ export default class LeasingOffice extends Component {
                 src={ProtreroLeasingOffice1}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -67,38 +55,18 @@ export default class LeasingOffice extends Component {
                 src={LexLeasingOffice}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={HarborLeasingOffice}
-                alt=""
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
+              <img className="Carousel-image" src="https://i.ibb.co/Tm4JF1c/Leasing-office.jpg" alt="Leasing-office" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={BayshoreLeasingOffice2}
-                alt=""
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
+              <img className="Carousel-image" src="https://i.ibb.co/vZ89nmf/Desk.jpg" alt="Desk" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={BayshoreLeasingOffice3}
-                alt=""
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
+              <img className="Carousel-image" src="https://i.ibb.co/VjrsYr5/Chairs.jpg" alt="Chairs" border="0" />
             </Carousel.Item>
 
 
@@ -108,18 +76,10 @@ export default class LeasingOffice extends Component {
                 src={RockLeasingOffice}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={ChadLeasingOffice}
-                alt=""
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
+              <img className="Carousel-image" src="https://i.ibb.co/DkHdvYr/Leasing-office.jpg" alt="Leasing-office" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
@@ -128,8 +88,6 @@ export default class LeasingOffice extends Component {
                 src={CorsicaLeasingOffice}
                 alt=""
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </div>
