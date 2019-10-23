@@ -32,13 +32,13 @@ export default class Services extends Component {
         <div className="Clients-list">
           <h4> Clients </h4>  
             <div id="Clients-col">
-              <p>TruAmerica</p>
-              <p>City View</p>
+              <p>Alcove Properties</p>
+              <p>Cityview</p>
               <p>Kennedy Wilson</p>
-              <p>Alcole Properties</p>
-              <p>Greystar Management</p>
-              <p>FPI Management</p>
+              <p>TruAmerica</p>
               <p>E&S Ring Management</p>
+              <p>FPI Management</p>
+              <p>Greystar Management</p>
             </div>
           </div>
 
