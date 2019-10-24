@@ -32,7 +32,7 @@ export default class Services extends Component {
         <div className="Clients-list">
           <h4> Clients </h4>  
             <div id="Clients-col">
-              <p>Alcove Properties</p>
+              <p>Alcole Properties</p>
               <p>Cityview</p>
               <p>Kennedy Wilson</p>
               <p>TruAmerica</p>
