@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import CorsicaLeasingOffice from '../images/corsica/Leasing-office.jpg';
 import LexLeasingOffice from '../images/lexington/Leasing-office.jpg';
 import RockLeasingOffice from '../images/rockwood/Leasing-office.jpg';
-import ProtreroLeasingOffice1 from '../images/protrero/Leasing-office.jpg';
+import PortreroLeasingOffice1 from '../images/portrero/Leasing-office.jpg';
 
 export default class LeasingOffice extends Component {
   render() {
@@ -29,7 +29,7 @@ export default class LeasingOffice extends Component {
             <Carousel.Item>
               <img
                 className="Carousel-image"
-                src={ProtreroLeasingOffice1}
+                src={PortreroLeasingOffice1}
                 alt=""
               />
             </Carousel.Item>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
-import ProtreroLeasingOffice2 from '../images/protrero/Leasing-office2.jpg';
+import PortreroLeasingOffice2 from '../images/portrero/Leasing-office2.jpg';
 
 export default class ClubRoom extends Component {
   render() {
@@ -13,7 +13,7 @@ export default class ClubRoom extends Component {
             <Carousel.Item>
               <img
                 className="Carousel-image"
-                src={ProtreroLeasingOffice2}
+                src={PortreroLeasingOffice2}
                 alt=""
               />
             </Carousel.Item>
