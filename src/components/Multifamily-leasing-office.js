@@ -5,6 +5,8 @@ import CorsicaLeasingOffice from '../images/corsica/Leasing-office.jpg';
 import LexLeasingOffice from '../images/lexington/Leasing-office.jpg';
 import RockLeasingOffice from '../images/rockwood/Leasing-office.jpg';
 import PortreroLeasingOffice1 from '../images/portrero/Leasing-office.jpg';
+import SouthfieldLeasingOffice1 from '../images/southfield/southfield1.jpg';
+import Waterleaf from '../images/waterleaf/Waterleaf3.jpg';
 
 export default class LeasingOffice extends Component {
   render() {
@@ -29,6 +31,22 @@ export default class LeasingOffice extends Component {
             <Carousel.Item>
               <img
                 className="Carousel-image"
+                src={Waterleaf}
+                alt=""
+              />
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={SouthfieldLeasingOffice1}
+                alt=""
+              />
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
                 src={PortreroLeasingOffice1}
                 alt=""
               />
@@ -45,15 +63,6 @@ export default class LeasingOffice extends Component {
             <Carousel.Item>
               <img className="Carousel-image" src="https://i.ibb.co/Tm4JF1c/Leasing-office.jpg" alt="Leasing-office" border="0" />
             </Carousel.Item>
-
-            <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/vZ89nmf/Desk.jpg" alt="Desk" border="0" />
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/VjrsYr5/Chairs.jpg" alt="Chairs" border="0" />
-            </Carousel.Item>
-
 
             <Carousel.Item>
               <img

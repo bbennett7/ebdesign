@@ -6,6 +6,8 @@ import K2 from '../images/residential-kitchen/K2.jpg';
 import K3 from '../images/residential-kitchen/K3.jpg';
 import K4 from '../images/residential-kitchen/K4.jpg';
 import K5 from '../images/residential-kitchen/K5.jpg';
+import K6 from '../images/residential-kitchen/K6.jpg';
+
 
 export default class Kitchen extends Component {
   render() {
@@ -51,6 +53,14 @@ export default class Kitchen extends Component {
                 className="Carousel-image"
                 src={K5}
                 alt="Fifth Kitchen"
+              />
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={K6}
+                alt="Sixth Kitchen"
               />
             </Carousel.Item>
           </Carousel>

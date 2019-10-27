@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
-import LeasingOffice from '../images/rockwood/Leasing-office.jpg';
+import WL1 from '../images/waterleaf/Waterleaf1.jpg';
+import WL2 from '../images/waterleaf/Waterleaf2.jpg';
+import WL3 from '../images/waterleaf/Waterleaf3.jpg';
 
 export default class Waterleaf extends Component {
   render() {
@@ -9,12 +11,27 @@ export default class Waterleaf extends Component {
       <div className="Property-grid">
         <div className="Property">
           <h4>Waterleaf</h4>
-          <h1>ADD IMAGES</h1>
           <Carousel className="Carousel">
+          <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={WL3}
+                alt=""
+              />
+            </Carousel.Item>
+            
             <Carousel.Item>
               <img
                 className="Carousel-image"
-                src={LeasingOffice}
+                src={WL1}
+                alt=""
+              />
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={WL2}
                 alt=""
               />
             </Carousel.Item>

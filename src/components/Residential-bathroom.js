@@ -14,7 +14,7 @@ export default class Bathroom extends Component {
     return(
       <div className="Property-grid">
         <div className="Property">
-          <h4>Dining Room</h4>
+          <h4>Bathroom</h4>
           <Carousel className="Carousel">
             <Carousel.Item>
               <img
