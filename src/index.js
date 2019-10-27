@@ -9,6 +9,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Backyard from './components/Residential-backyard';
 import Bathroom from './components/Residential-bathroom';
+import DiningRoom from './components/Residential-dining-room';
 import Kitchen from './components/Residential-kitchen';
 import LivingRoom from './components/Residential-living-room';
 import Bayshore from './components/Bayshore';
@@ -44,6 +45,7 @@ ReactDOM.render(
       <Route exact path="/services" component={Services} />
       <Route exact path="/residential/backyard" component={Backyard} />
       <Route exact path="/residential/bathroom" component={Bathroom} />
+      <Route exact path="/residential/dining-room" component={DiningRoom} />
       <Route exact path="/residential/kitchen" component={Kitchen} />
       <Route exact path="/residential/living-room" component={LivingRoom} />
       <Route exact path="/multi-family/Bayshore" component={Bayshore} />

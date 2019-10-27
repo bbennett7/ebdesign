@@ -42,6 +42,7 @@ export default class NavBar extends Component {
           <NavDropdown title="Residential" className="Top-level">
             <Link className="Bottom-level" to="/residential/backyard"> Backyard </Link>
             <Link className="Bottom-level" to="/residential/bathroom"> Bathroom </Link>
+            <Link className="Bottom-level" to="/residential/dining-room"> Dining Room </Link>
             <Link className="Bottom-level" to="/residential/kitchen"> Kitchen </Link>
             <Link className="Bottom-level" to="/residential/living-room"> Living Room </Link>
           </NavDropdown>
