@@ -4,6 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import BayridgeODL from '../images/bayridge/Common-area.jpg';
 import RockODL from '../images/rockwood/Outdoor-lounge.jpg';
 import RockODL2 from '../images/rockwood/Pool-seating.jpg';
+import Chadwick1 from '../images/chadwick/Chadwick1.png';
 
 export default class OutdoorLounge extends Component {
   render() {
@@ -13,7 +14,7 @@ export default class OutdoorLounge extends Component {
           <h4>Outdoor Lounge</h4>
           <Carousel className="Carousel">
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/3W7brXn/Fireplace.png" alt="Fireplace" border="0" />
+              <img className="Carousel-image" src={Chadwick1} alt="Fireplace" border="0" />
             </Carousel.Item>
             
             <Carousel.Item>

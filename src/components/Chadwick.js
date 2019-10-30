@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
+import Chadwick1 from '../images/chadwick/Chadwick1.png';
+import Chadwick2 from '../images/chadwick/Chadwick2.jpg';
 
 export default class Chadwick extends Component {
   render() {
@@ -14,7 +16,7 @@ export default class Chadwick extends Component {
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/3W7brXn/Fireplace.png" alt="Fireplace" border="0" />
+              <img className="Carousel-image" src={Chadwick1} alt="Fireplace" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
@@ -26,7 +28,7 @@ export default class Chadwick extends Component {
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/x7f1251/Pool.jpg" alt="Pool" border="0" />
+              <img className="Carousel-image" src={Chadwick2} alt="Pool" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>

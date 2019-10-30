@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
+import Harborview1 from '../images/harborview/Harborview1.jpg';
+
 export default class Harborview extends Component {
   render() {
     return(
@@ -9,7 +11,7 @@ export default class Harborview extends Component {
           <h4>Harborview</h4>
           <Carousel className="Carousel">
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/PN92nmv/Exterior.jpg" alt="Exterior" border="0" />
+              <img className="Carousel-image" src={Harborview1} alt="Exterior" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>

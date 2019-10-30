@@ -7,6 +7,8 @@ import RockLeasingOffice from '../images/rockwood/Leasing-office.jpg';
 import PortreroLeasingOffice1 from '../images/portrero/Leasing-office.jpg';
 import SouthfieldLeasingOffice1 from '../images/southfield/southfield1.jpg';
 import Waterleaf from '../images/waterleaf/Waterleaf3.jpg';
+import Vicino1 from '../images/vicino/Vicino1.jpg';
+
 
 export default class LeasingOffice extends Component {
   render() {
@@ -17,7 +19,7 @@ export default class LeasingOffice extends Component {
           <Carousel className="Carousel">
 
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/m95ngMg/Center-area.jpg" alt="Center-area" border="0" />
+              <img className="Carousel-image" src={Vicino1} alt="Center-area" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>

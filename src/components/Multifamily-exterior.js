@@ -4,6 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import CountryOaksExterior from '../images/country-oaks/Exterior.jpg';
 import LexEntrance from '../images/lexington/Entrance.jpg';
 import LexMainExterior from '../images/lexington/Main-exterior.jpg';
+import Harborview1 from '../images/harborview/Harborview1.jpg';
 
 export default class Exterior extends Component {
   render() {
@@ -17,7 +18,7 @@ export default class Exterior extends Component {
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/PN92nmv/Exterior.jpg" alt="Exterior" border="0" />
+              <img className="Carousel-image" src={Harborview1} alt="Exterior" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>

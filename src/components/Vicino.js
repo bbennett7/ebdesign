@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
+import Vicino1 from '../images/vicino/Vicino1.jpg';
+import Vicino2 from '../images/vicino/Vicino2.jpg';
+import Vicino3 from '../images/vicino/Vicino3.jpg';
+
 export default class Vicino extends Component {
   render() {
     return(
@@ -17,7 +21,7 @@ export default class Vicino extends Component {
               </Carousel.Item>
 
               <Carousel.Item>
-                <img className="Carousel-image" src="https://i.ibb.co/m95ngMg/Center-area.jpg" alt="Center-area" border="0" />
+                <img className="Carousel-image" src={Vicino1} alt="Center-area" border="0" />
               </Carousel.Item>
 
               <Carousel.Item>
@@ -29,7 +33,7 @@ export default class Vicino extends Component {
               </Carousel.Item>
 
               <Carousel.Item>
-                <img className="Carousel-image" src="https://i.ibb.co/n1jKfhB/Gym.jpg" alt="Gym" border="0" />
+                <img className="Carousel-image" src={Vicino2} alt="Gym" border="0" />
               </Carousel.Item>
 
               <Carousel.Item>
@@ -53,7 +57,7 @@ export default class Vicino extends Component {
               </Carousel.Item>
 
               <Carousel.Item>
-                <img className="Carousel-image" src="https://i.ibb.co/6FkP9bH/Chaise-lounges.jpg" alt="Chaise-lounges" border="0" />
+                <img className="Carousel-image" src={Vicino3} alt="Chaise-lounges" border="0" />
               </Carousel.Item>
             </Carousel>
         </div>

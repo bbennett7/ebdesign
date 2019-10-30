@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
+import Vicino2 from '../images/vicino/Vicino2.jpg';
 import CGym from '../images/corsica/Gym.jpg';
 import RFitnessCenter from '../images/rockwood/Fitness-center.jpg';
 
@@ -12,7 +13,7 @@ export default class FitnessCenter extends Component {
           <h4>Fitness Center</h4>
           <Carousel className="Carousel">
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/n1jKfhB/Gym.jpg" alt="Gym" border="0" />
+              <img className="Carousel-image" src={Vicino2}alt="Gym" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
