@@ -3,6 +3,10 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import Chadwick1 from '../images/chadwick/Chadwick1.png';
 import Chadwick2 from '../images/chadwick/Chadwick2.jpg';
+import Chadwick3 from '../images/chadwick/Chadwick3.png';
+import Chadwick4 from '../images/chadwick/Chadwick4.jpg';
+import Chadwick5 from '../images/chadwick/Chadwick5.jpg';
+import Chadwick6 from '../images/chadwick/Chadwick6.jpg';
 
 export default class Chadwick extends Component {
   render() {
@@ -12,7 +16,7 @@ export default class Chadwick extends Component {
           <h4>The Chadwick</h4>
           <Carousel className="Carousel">
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/Ph9NbVQ/Pool-seating.png" alt="Pool-seating" border="0" />
+              <img className="Carousel-image" src={Chadwick3} alt="Pool-seating" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
@@ -20,11 +24,11 @@ export default class Chadwick extends Component {
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/tP5zDpY/Seating.jpg" alt="Seating" border="0" />
+              <img className="Carousel-image" src={Chadwick4} alt="Seating" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/8rVKz1J/BBQs.jpg" alt="BBQs" border="0" />
+              <img className="Carousel-image" src={Chadwick5} alt="BBQs" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
@@ -32,7 +36,7 @@ export default class Chadwick extends Component {
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/DkHdvYr/Leasing-office.jpg" alt="Leasing-office" border="0" />
+              <img className="Carousel-image" src={Chadwick6} alt="Leasing-office" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>

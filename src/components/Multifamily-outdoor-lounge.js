@@ -5,6 +5,7 @@ import BayridgeODL from '../images/bayridge/Common-area.jpg';
 import RockODL from '../images/rockwood/Outdoor-lounge.jpg';
 import RockODL2 from '../images/rockwood/Pool-seating.jpg';
 import Chadwick1 from '../images/chadwick/Chadwick1.png';
+import Chadwick3 from '../images/chadwick/Chadwick3.png';
 
 export default class OutdoorLounge extends Component {
   render() {
@@ -18,7 +19,7 @@ export default class OutdoorLounge extends Component {
             </Carousel.Item>
             
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/Ph9NbVQ/Pool-seating.png" alt="Pool-seating" border="0" />
+              <img className="Carousel-image" src={Chadwick3} alt="Pool-seating" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
