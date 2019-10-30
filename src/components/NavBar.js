@@ -22,6 +22,7 @@ export default class NavBar extends Component {
               <Link className="Bottom-level" to="/multi-family/Portrero"> Portrero </Link>
               <Link className="Bottom-level" to="/multi-family/Rockwood"> Rockwood </Link>
               <Link className="Bottom-level" to="/multi-family/Sherwood-Crossing"> Sherwood Crossing </Link>
+              <Link className="Bottom-level" to="/multi-family/Townhomes"> Townhomes </Link>
               <Link className="Bottom-level" to="/multi-family/Vicino"> Vicino </Link>
               <Link className="Bottom-level" to="/multi-family/Waterleaf"> Waterleaf </Link>
               <Link className="Bottom-level" to="/multi-family/Waterscape"> Waterscape </Link>

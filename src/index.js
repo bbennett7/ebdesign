@@ -21,6 +21,7 @@ import Parc5 from './components/Parc5';
 import Portrero from './components/Portrero';
 import Rockwood from './components/Rockwood';
 import SherwoodCrossing from './components/SherwoodCrossing';
+import Townhomes from './components/Townhomes';
 import Vicino from './components/Vicino';
 import Waterleaf from './components/Waterleaf';
 import Waterscape from './components/Waterscape';
@@ -57,6 +58,7 @@ ReactDOM.render(
       <Route exact path="/multi-family/Portrero" component={Portrero} />
       <Route exact path="/multi-family/Rockwood" component={Rockwood} />
       <Route exact path="/multi-family/Sherwood-Crossing" component={SherwoodCrossing} />
+      <Route exact path="/multi-family/Townhomes" component={Townhomes} />
       <Route exact path="/multi-family/Vicino" component={Vicino} />
       <Route exact path="/multi-family/Waterleaf" component={Waterleaf} />
       <Route exact path="/multi-family/Waterscape" component={Waterscape} />
