@@ -9,6 +9,8 @@ import SouthfieldLeasingOffice1 from '../images/southfield/southfield1.jpg';
 import Waterleaf from '../images/waterleaf/Waterleaf3.jpg';
 import Vicino1 from '../images/vicino/Vicino1.jpg';
 import Chadwick6 from '../images/chadwick/Chadwick6.jpg';
+import Harborview2 from '../images/harborview/Harborview2.jpg';
+import Vicino6 from '../images/vicino/Vicino6.jpg';
 
 
 export default class LeasingOffice extends Component {
@@ -24,7 +26,7 @@ export default class LeasingOffice extends Component {
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/bF9CzZc/Lounge-area.jpg" alt="Lounge-area" border="0" />
+              <img className="Carousel-image" src={Vicino6} alt="Lounge-area" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
@@ -64,7 +66,7 @@ export default class LeasingOffice extends Component {
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/Tm4JF1c/Leasing-office.jpg" alt="Leasing-office" border="0" />
+              <img className="Carousel-image" src={Harborview2} alt="Leasing-office" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>

@@ -4,6 +4,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import Vicino1 from '../images/vicino/Vicino1.jpg';
 import Vicino2 from '../images/vicino/Vicino2.jpg';
 import Vicino3 from '../images/vicino/Vicino3.jpg';
+import Vicino4 from '../images/vicino/Vicino4.jpg';
+import Vicino5 from '../images/vicino/Vicino5.jpg';
+import Vicino6 from '../images/vicino/Vicino6.jpg';
 
 export default class Vicino extends Component {
   render() {
@@ -13,11 +16,11 @@ export default class Vicino extends Component {
           <h4>Vicino</h4>
             <Carousel className="Carousel">
               <Carousel.Item>
-                <img className="Carousel-image" src="https://i.ibb.co/HH27HSS/Leasing-office-exterior.jpg" alt="Leasing-office-exterior" border="0" />
+                <img className="Carousel-image" src={Vicino4} alt="Leasing-office-exterior" border="0" />
               </Carousel.Item>
 
               <Carousel.Item>
-                <img className="Carousel-image" src="https://i.ibb.co/qgCgqtP/Leasing-office-interior.jpg" alt="Leasing-office-interior" border="0" />
+                <img className="Carousel-image" src={Vicino5} alt="Leasing-office-interior" border="0" />
               </Carousel.Item>
 
               <Carousel.Item>
@@ -25,7 +28,7 @@ export default class Vicino extends Component {
               </Carousel.Item>
 
               <Carousel.Item>
-                <img className="Carousel-image" src="https://i.ibb.co/bF9CzZc/Lounge-area.jpg" alt="Lounge-area" border="0" />
+                <img className="Carousel-image" src={Vicino6} alt="Lounge-area" border="0" />
               </Carousel.Item>
 
               <Carousel.Item>
