@@ -7,6 +7,7 @@ import Chadwick3 from '../images/chadwick/Chadwick3.png';
 import Chadwick4 from '../images/chadwick/Chadwick4.jpg';
 import Chadwick5 from '../images/chadwick/Chadwick5.jpg';
 import Chadwick6 from '../images/chadwick/Chadwick6.jpg';
+import Chadwick7 from '../images/chadwick/Chadwick7.jpg';
 
 export default class Chadwick extends Component {
   render() {
@@ -40,7 +41,7 @@ export default class Chadwick extends Component {
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/tDqNPXH/Game-room.jpg" alt="Game-room" border="0" />
+              <img className="Carousel-image" src={Chadwick7} alt="Game-room" border="0" />
             </Carousel.Item>
           </Carousel>
         </div>
