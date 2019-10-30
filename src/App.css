@@ -96,7 +96,7 @@ p {
 .EB-logo {
   grid-area: 1 / 1 / 1 / 2;
   width: auto;
-  height: 50%;
+  height: 60px;
   margin: 20% 15% auto auto;
 }
 
