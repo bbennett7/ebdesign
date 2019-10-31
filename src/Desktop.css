@@ -22,12 +22,12 @@
     .EB-logo {
       grid-area: 1 / 1 / 1 / 2;
       width: auto;
-      height: 50%;
+      height: 65%;
       margin: 5% 0 0 10%;
     }
   
     .Header {
-      padding: 1.5% 0;
+      padding: 1% 0;
       grid-area: 1 / 1 / 2 / 5;
       z-index: -1;
       margin: 0 auto;
