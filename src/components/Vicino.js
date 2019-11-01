@@ -7,6 +7,7 @@ import Vicino3 from '../images/vicino/Vicino3.jpg';
 import Vicino4 from '../images/vicino/Vicino4.jpg';
 import Vicino5 from '../images/vicino/Vicino5.jpg';
 import Vicino6 from '../images/vicino/Vicino6.jpg';
+import Vicino7 from '../images/vicino/Vicino7.jpg';
 
 export default class Vicino extends Component {
   render() {
@@ -20,15 +21,19 @@ export default class Vicino extends Component {
               </Carousel.Item>
 
               <Carousel.Item>
-                <img className="Carousel-image" src={Vicino5} alt="Leasing-office-interior" border="0" />
-              </Carousel.Item>
-
-              <Carousel.Item>
                 <img className="Carousel-image" src={Vicino1} alt="Center-area" border="0" />
               </Carousel.Item>
 
               <Carousel.Item>
                 <img className="Carousel-image" src={Vicino6} alt="Lounge-area" border="0" />
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <img className="Carousel-image" src={Vicino7} alt="Leasing-office-interior" border="0" />
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <img className="Carousel-image" src={Vicino5} alt="Leasing-office-interior" border="0" />
               </Carousel.Item>
 
               <Carousel.Item>

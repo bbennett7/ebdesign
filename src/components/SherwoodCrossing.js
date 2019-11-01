@@ -5,6 +5,7 @@ import SC1 from '../images/sherwood-crossing/SC1.jpg';
 import SC2 from '../images/sherwood-crossing/SC2.jpg';
 import SC3 from '../images/sherwood-crossing/SC3.jpg';
 import SC4 from '../images/sherwood-crossing/SC4.jpg';
+import SC5 from '../images/sherwood-crossing/SC5.jpg';
 
 export default class SherwoodCrossing extends Component {
   render() {
@@ -25,6 +26,14 @@ export default class SherwoodCrossing extends Component {
               <img
                 className="Carousel-image"
                 src={SC3}
+                alt=""
+              />
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={SC5}
                 alt=""
               />
             </Carousel.Item>

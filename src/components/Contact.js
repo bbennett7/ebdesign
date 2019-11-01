@@ -16,10 +16,10 @@ export default class Contact extends Component {
           <br />
           <div className="Contact-info">
             <h5 className="Phone-text">p:</h5>
-            <p className="Phone-text">&nbsp;(310) 589-1963</p><br />
+            <p className="Phone-text">&nbsp;(424) 256-2730</p><br />
 
             <h5 className="Phone-text">e:</h5>
-            <p className="Phone-text">&nbsp;erin@ebdesign.com</p>
+            <p className="Phone-text">&nbsp;erin@erinboyledesign.com</p>
           </div>
           <br />
           <br />

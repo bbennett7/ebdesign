@@ -31,10 +31,6 @@ export default class Harborview extends Component {
             <Carousel.Item>
               <img className="Carousel-image" src="https://i.ibb.co/VmMT0fZ/Pool.jpg" alt="Pool" border="0" />
             </Carousel.Item>
-
-            <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/c3S5qCh/Barbecue.jpg" alt="Barbecue" border="0" />
-            </Carousel.Item>
           </Carousel>
         </div>
       </div>

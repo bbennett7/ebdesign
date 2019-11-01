@@ -17,10 +17,6 @@ export default class Parc5 extends Component {
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/dsZ2HQr/TV-seating.jpg" alt="TV-seating" border="0" />
-            </Carousel.Item>
-
-            <Carousel.Item>
               <img className="Carousel-image" src="https://i.ibb.co/dmqDRYY/Game-board.jpg" alt="Game-board" border="0" />
             </Carousel.Item>
 
