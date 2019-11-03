@@ -4,6 +4,8 @@ import Carousel from 'react-bootstrap/Carousel';
 import Harborview1 from '../images/harborview/Harborview1.jpg';
 import Harborview2 from '../images/harborview/Harborview2.jpg';
 import Harborview3 from '../images/harborview/Harborview3.jpg';
+import Harborview4 from '../images/harborview/Harborview4.jpg';
+import Harborview5 from '../images/harborview/Harborview5.jpg';
 
 export default class Harborview extends Component {
   render() {
@@ -25,11 +27,11 @@ export default class Harborview extends Component {
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/d61wC7v/Fitness-center.jpg" alt="Fitness-center" border="0" />
+              <img className="Carousel-image" src={Harborview4} alt="Fitness-center" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/VmMT0fZ/Pool.jpg" alt="Pool" border="0" />
+              <img className="Carousel-image" src={Harborview5} alt="Pool" border="0" />
             </Carousel.Item>
           </Carousel>
         </div>
