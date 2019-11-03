@@ -4,6 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import BayridgeBBQ from '../images/bayridge/BBQ.jpg';
 import LexBBQ from '../images/lexington/BBQs.jpg';
 import Chadwick5 from '../images/chadwick/Chadwick5.jpg';
+import Parc54 from '../images/parc5/Parc5-4.jpg';
 
 
 export default class Barbecue extends Component {
@@ -34,7 +35,7 @@ export default class Barbecue extends Component {
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/c3138bB/Grill-area.jpg" alt="Grill-area" border="0" />
+              <img className="Carousel-image" src={Parc54} alt="Grill-area" border="0" />
             </Carousel.Item>
           </Carousel>
         </div>

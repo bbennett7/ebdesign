@@ -6,6 +6,7 @@ import LexEntrance from '../images/lexington/Entrance.jpg';
 import LexMainExterior from '../images/lexington/Main-exterior.jpg';
 import Harborview1 from '../images/harborview/Harborview1.jpg';
 import Vicino4 from '../images/vicino/Vicino4.jpg';
+import Parc51 from '../images/parc5/Parc5-1.jpg';
 
 export default class Exterior extends Component {
   render() {
@@ -15,7 +16,7 @@ export default class Exterior extends Component {
           <h4>Exterior</h4>
           <Carousel className="Carousel">
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/wY7zhMN/Exterior.jpg" alt="Exterior" border="0" />
+              <img className="Carousel-image" src={Parc51} alt="Exterior" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>

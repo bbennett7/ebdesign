@@ -11,6 +11,7 @@ import Vicino1 from '../images/vicino/Vicino1.jpg';
 import Chadwick6 from '../images/chadwick/Chadwick6.jpg';
 import Harborview2 from '../images/harborview/Harborview2.jpg';
 import Vicino6 from '../images/vicino/Vicino6.jpg';
+import Vicino12 from '../images/vicino/Vicino12.jpg';
 
 
 export default class LeasingOffice extends Component {
@@ -30,7 +31,7 @@ export default class LeasingOffice extends Component {
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/sPvr2Xc/Table.jpg" alt="Table" border="0" />
+              <img className="Carousel-image" src={Vicino12} alt="Table" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>

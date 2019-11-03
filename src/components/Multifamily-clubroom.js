@@ -4,6 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import PortreroLeasingOffice2 from '../images/portrero/Leasing-office2.jpg';
 import SherwoodCrossing from '../images/sherwood-crossing/SC3.jpg';
 import Bayshore1 from '../images/bayshore/Bayshore1.jpg';
+import Parc52 from '../images/parc5/Parc5-2.jpg';
 
 export default class ClubRoom extends Component {
   render() {
@@ -21,11 +22,7 @@ export default class ClubRoom extends Component {
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/ZGvYQnj/Leasing-office.jpg" alt="Leasing-office" border="0" />
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/dsZ2HQr/TV-seating.jpg" alt="TV-seating" border="0" />
+              <img className="Carousel-image" src={Parc52} alt="Leasing-office" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>

@@ -7,6 +7,11 @@ import CorsicaPool2 from '../images/corsica/Pool.jpg';
 import RockPool from '../images/rockwood/Pool.jpg';
 import Vicino3 from '../images/vicino/Vicino3.jpg';
 import Chadwick2 from '../images/chadwick/Chadwick2.jpg';
+import Harborview5 from '../images/harborview/Harborview5.jpg';
+import Vicino11 from '../images/vicino/Vicino11.jpg';
+import Vicino10 from '../images/vicino/Vicino10.jpg';
+import Parc53 from '../images/parc5/Parc5-3.jpg';
+import Parc55 from '../images/parc5/Parc5-5.jpg';
 
 
 export default class Pool extends Component {
@@ -21,15 +26,15 @@ export default class Pool extends Component {
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/HzvKZhn/Pool-seating.jpg" alt="Pool-seating" border="0" />
+              <img className="Carousel-image" src={Vicino11} alt="Pool-seating" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/3SgbvXd/Pool.jpg" alt="Pool" border="0" />
+              <img className="Carousel-image" src={Vicino10} alt="Pool" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/VmMT0fZ/Pool.jpg" alt="Pool" border="0" />
+              <img className="Carousel-image" src={Harborview5} alt="Pool" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
@@ -41,11 +46,11 @@ export default class Pool extends Component {
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/dmqDRYY/Game-board.jpg" alt="Game-board" border="0" />
+              <img className="Carousel-image" src={Parc53} alt="Game-board" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/5v7drKF/Pool-area.jpg" alt="Pool-area" border="0" />
+              <img className="Carousel-image" src={Parc55} alt="Pool-area" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>

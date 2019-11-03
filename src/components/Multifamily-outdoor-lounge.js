@@ -6,6 +6,9 @@ import RockODL from '../images/rockwood/Outdoor-lounge.jpg';
 import RockODL2 from '../images/rockwood/Pool-seating.jpg';
 import Chadwick1 from '../images/chadwick/Chadwick1.png';
 import Chadwick3 from '../images/chadwick/Chadwick3.png';
+import Vicino8 from '../images/vicino/Vicino8.jpg';
+import Vicino9 from '../images/vicino/Vicino9.jpg';
+import Parc56 from '../images/parc5/Parc5-6.jpg';
 
 export default class OutdoorLounge extends Component {
   render() {
@@ -23,11 +26,11 @@ export default class OutdoorLounge extends Component {
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/PNNf6xk/Firepit.jpg" alt="Firepit" border="0" />
+              <img className="Carousel-image" src={Vicino8} alt="Firepit" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/8694bYk/Outdoor-TV.jpg" alt="Outdoor-TV" border="0" />
+              <img className="Carousel-image" src={Vicino9} alt="Outdoor-TV" border="0" />
             </Carousel.Item>
 
             <Carousel.Item>
@@ -55,7 +58,7 @@ export default class OutdoorLounge extends Component {
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="Carousel-image" src="https://i.ibb.co/TPh7cYF/Pool-lounge.jpg" alt="Pool-lounge" border="0" />
+              <img className="Carousel-image" src={Parc56} alt="Pool-lounge" border="0" />
             </Carousel.Item>
           </Carousel>
         </div>
