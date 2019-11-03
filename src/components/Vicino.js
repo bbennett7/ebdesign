@@ -8,6 +8,12 @@ import Vicino4 from '../images/vicino/Vicino4.jpg';
 import Vicino5 from '../images/vicino/Vicino5.jpg';
 import Vicino6 from '../images/vicino/Vicino6.jpg';
 import Vicino7 from '../images/vicino/Vicino7.jpg';
+import Vicino8 from '../images/vicino/Vicino8.jpg';
+import Vicino9 from '../images/vicino/Vicino9.jpg';
+import Vicino10 from '../images/vicino/Vicino10.jpg';
+import Vicino11 from '../images/vicino/Vicino11.jpg';
+import Vicino12 from '../images/vicino/Vicino12.jpg';
+import Vicino13 from '../images/vicino/Vicino13.jpg';
 
 export default class Vicino extends Component {
   render() {
@@ -37,7 +43,7 @@ export default class Vicino extends Component {
               </Carousel.Item>
 
               <Carousel.Item>
-                <img className="Carousel-image" src="https://i.ibb.co/sPvr2Xc/Table.jpg" alt="Table" border="0" />
+                <img className="Carousel-image" src={Vicino12} alt="Table" border="0" />
               </Carousel.Item>
 
               <Carousel.Item>
@@ -45,23 +51,23 @@ export default class Vicino extends Component {
               </Carousel.Item>
 
               <Carousel.Item>
-                <img className="Carousel-image" src="https://i.ibb.co/Fh1dBkN/Treadmills.jpg" alt="Treadmills" border="0" />
+                <img className="Carousel-image" src={Vicino13} alt="Treadmills" border="0" />
               </Carousel.Item>
 
               <Carousel.Item>
-                <img className="Carousel-image" src="https://i.ibb.co/PNNf6xk/Firepit.jpg" alt="Firepit" border="0" />
+                <img className="Carousel-image" src={Vicino8} alt="Firepit" border="0" />
               </Carousel.Item>
 
               <Carousel.Item>
-                <img className="Carousel-image" src="https://i.ibb.co/8694bYk/Outdoor-TV.jpg" alt="Outdoor-TV" border="0" />
+                <img className="Carousel-image" src={Vicino9} alt="Outdoor-TV" border="0" />
               </Carousel.Item>
 
               <Carousel.Item>
-                <img className="Carousel-image" src="https://i.ibb.co/3SgbvXd/Pool.jpg" alt="Pool" border="0" />
+                <img className="Carousel-image" src={Vicino11} alt="Pool" border="0" />
               </Carousel.Item>
 
               <Carousel.Item>
-                <img className="Carousel-image" src="https://i.ibb.co/HzvKZhn/Pool-seating.jpg" alt="Pool-seating" border="0" />
+                <img className="Carousel-image" src={Vicino10} alt="Pool-seating" border="0" />
               </Carousel.Item>
 
               <Carousel.Item>
