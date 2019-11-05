@@ -9,6 +9,7 @@ import Chadwick3 from '../images/chadwick/Chadwick3.png';
 import Vicino8 from '../images/vicino/Vicino8.jpg';
 import Vicino9 from '../images/vicino/Vicino9.jpg';
 import Parc56 from '../images/parc5/Parc5-6.jpg';
+import Aspen1 from '../images/aspen/Aspen1.jpg';
 
 export default class OutdoorLounge extends Component {
   render() {
@@ -34,31 +35,23 @@ export default class OutdoorLounge extends Component {
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={BayridgeODL}
-                alt=""
-              />
+              <img className="Carousel-image" src={BayridgeODL} alt="" />
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={RockODL}
-                alt=""
-              />
+              <img className="Carousel-image" src={RockODL} alt="" />
             </Carousel.Item>
 
             <Carousel.Item>
-              <img
-                className="Carousel-image"
-                src={RockODL2}
-                alt=""
-              />
+              <img className="Carousel-image" src={RockODL2} alt="" />
             </Carousel.Item>
 
             <Carousel.Item>
               <img className="Carousel-image" src={Parc56} alt="Pool-lounge" border="0" />
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img className="Carousel-image" src={Aspen1} alt="Fire-pit" border="0" />
             </Carousel.Item>
           </Carousel>
         </div>

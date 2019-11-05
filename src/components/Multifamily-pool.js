@@ -12,6 +12,7 @@ import Vicino11 from '../images/vicino/Vicino11.jpg';
 import Vicino10 from '../images/vicino/Vicino10.jpg';
 import Parc53 from '../images/parc5/Parc5-3.jpg';
 import Parc55 from '../images/parc5/Parc5-5.jpg';
+import Aspen2 from '../images/aspen/Aspen2.jpg';
 
 
 export default class Pool extends Component {
@@ -77,6 +78,14 @@ export default class Pool extends Component {
               <img
                 className="Carousel-image"
                 src={RockPool}
+                alt=""
+              />
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={Aspen2}
                 alt=""
               />
             </Carousel.Item>
