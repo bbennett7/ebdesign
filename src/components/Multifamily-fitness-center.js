@@ -6,6 +6,7 @@ import CGym from '../images/corsica/Gym.jpg';
 import RFitnessCenter from '../images/rockwood/Fitness-center.jpg';
 import Vicino13 from '../images/vicino/Vicino13.jpg';
 import Harborview4 from '../images/harborview/Harborview4.jpg';
+import TH3 from '../images/townhomes/TH3.JPG';
 
 export default class FitnessCenter extends Component {
   render() {
@@ -38,6 +39,14 @@ export default class FitnessCenter extends Component {
               <img
                 className="Carousel-image"
                 src={RFitnessCenter}
+                alt=""
+              />
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                className="Carousel-image"
+                src={TH3}
                 alt=""
               />
             </Carousel.Item>
